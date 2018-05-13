@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	font-family: Impact;
+	background: #3069ba;
+	background-image: url("images/chipndales-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.topnav {
+	overflow: hidden;
+	padding: 5px 15px;
+}
+
+.topnav a {
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	text-shadow: 0 0 13px red;
+	font-size: 25px;
+}
