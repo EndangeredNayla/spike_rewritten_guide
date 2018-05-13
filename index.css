@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: Impact;
+	font-family: 'Roboto', sans-serif;
 	background: #3069ba;
 	background-image: url("images/chipndales-background.jpg");
 	background-size: cover;
@@ -11,14 +11,59 @@ body {
 .topnav {
 	overflow: hidden;
 	padding: 5px 15px;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .topnav a {
-	float: right;
+	cursor: pointer;
+	float: left;
 	color: white;
+	font-family: 'Luckiest Guy', cursive;
 	text-align: center;
-	padding: 20px 20px;
+	padding: 30px 30px;
 	text-decoration: none;
-	text-shadow: 0 0 13px red;
+	text-shadow: 0 0 13px #285b9f;
 	font-size: 25px;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0 0 13px #285b9f;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 30px 30px;
+	margin: 0;
+	background-color: inherit;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+	text-shadow: 0 0 13px red;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    text-decoration: none;
+    text-shadow: 0 0 10px red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
