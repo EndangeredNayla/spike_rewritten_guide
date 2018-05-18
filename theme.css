@@ -21,6 +21,13 @@ body a {
 	color: red;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
 .topnav {
 	overflow: hidden;
 	padding: 5px 15px;
@@ -64,6 +71,7 @@ body a {
 .dropdown-content {
 	display: none;
 	position: absolute;
+	margin-top: 5px;
 	background-color: rgba(255, 255, 255, 0.2);
 	z-index: 1;
 }
@@ -86,7 +94,6 @@ body a {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 6em;
-	padding-bottom: 6em;
 	width: 40em;
 }
 
@@ -97,6 +104,7 @@ body a {
 	background-color: white;
 	border-radius: 1em;
 	width: 60em;
+	margin-top: 6em;
 	margin-bottom: 3em;
 	box-shadow: 1px 1px 8px 1px silver;
 }
