@@ -1,0 +1,26 @@
+input, select, textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+    resizing: vertical;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+button[type=submit] {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+button[type=submit]:hover {
+	box-shadow: 1px 1px 8px 1px red;
+}

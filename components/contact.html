@@ -1,6 +1,7 @@
 <html>
   <head>
     <link href="../theme.css" rel="stylesheet" type="text/css">
+    <link href="contact.css" rel="stylesheet" type="text/css">
     <title>Contact | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
@@ -42,6 +43,34 @@
       </div>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
+    </div>
+    <div>This page is under construction. Contact form submission doesn't work yet.</div>
+    <div class="panel">
+      <div class=panel-content>
+        <h1>Send Spike a Message!</h1>
+        <form>
+          <label for="fname">Your Toon Name</label>
+          <input type="text" id="tname" name="toonname" placeholder="Please tell me your toon's name!">
+          <label for="toontype">Toon Species</label>
+          <select id="toontype" name="toontype">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="rabbit">Rabbit</option>
+            <option value="horse">Horse</option>
+            <option value="monkey">Monkey</option>
+            <option value="duck">Duck</option>
+            <option value="pig">Pig</option>
+            <option value="bear">Bear</option>
+            <option value="deer">Deer</option>
+            <option value="crocodile">Crocodile</option>
+          </select>
+          <label for="returnaddr">Your Email Address</label>
+          <input type="email" id="returnaddr" name="returnaddress" placeholder="Please tell me your email so I can respond!">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here!" style="height:200px"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
