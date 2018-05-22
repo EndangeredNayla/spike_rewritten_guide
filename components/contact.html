@@ -44,11 +44,11 @@
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </div>
-    <div>This page is under construction. Contact form submission doesn't work yet.</div>
+    <div>This page is under construction. Contact form submission doesn't work yet. Submit button disabled for now.</div>
     <div class="panel">
       <div class=panel-content>
         <h1>Send Spike a Message!</h1>
-        <form>
+        <form name="myform" onSubmit="mailOut()">
           <label for="fname">Your Toon Name</label>
           <input type="text" id="tname" name="toonname" placeholder="Please tell me your toon's name!">
           <label for="toontype">Toon Species</label>
@@ -68,9 +68,17 @@
           <input type="email" id="returnaddr" name="returnaddress" placeholder="Please tell me your email so I can respond!">
           <label for="message">Your Message</label>
           <textarea id="message" name="message" placeholder="Type your message here!" style="height:200px"></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit" disabled>Submit</button>
         </form>
       </div>
     </div>
+    <script>
+      function mailOut() {
+    	  document.location.href = "mailto:ctripoll@yahoo.com?subject=" + document.myform.toonname + " | Spike's Rewritten Guide Message&body=" 
+                  + document.myform.message + "\n(" + document.myform.toontype + ") Reply to: " + document.myform.returnaddr;
+    	  alert("Message sent!");
+    	  return window.open("contact.html", "_self", true);
+      }
+    </script>
   </body>
 </html>
