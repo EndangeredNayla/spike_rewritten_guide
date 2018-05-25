@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link href="../../theme.css" rel="stylesheet" type="text/css">
+    <link href="gardening.css" rel="stylesheet" type="text/css">
     <title>Gardening | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
@@ -43,57 +45,120 @@
       <a href="../about.html">About</a>
       <a href="../contact.html">Contact</a>
     </div>
-    <div>
+    <div class="gardening-panel">
+      <div class="panel-content">
+        <h1>Gardening Guide **incomplete**</h1>
+        <p>Looking for flower bean combinations? Well you came to the right place! Here you can look
+           through all the possible flower bean combinations that exist in Toontown Rewritten. You can
+           sort the list by bean count (number of beans you can or want to plant) or by flower species!
+        </p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="filtering">
+        <button name="num" class="active">Bean Count</button>
+        <button name="type" onclick="window.location.href='gardening/gardening_species.html'">Flower Species/Color</button>
+      </div>
       <ul>
         <!-- One bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="one" data-image="">Laff-o-dill</li>
+        <hr>
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="one" data-image="">Dandy Pansy</li>
+        <hr>
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="one" data-image="">What-in Carnation</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="one" data-image="">School Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="one" data-image="">Lily-of-the-Alley</li>
+      </ul>
+      <p></p>
+      <ul>
         <!-- Two bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="two" data-image="">Daffy Dill</li>
+        <hr>
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="two" data-image="">Chim Pansy</li>
+        <hr>
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="two" data-image="">Instant Carnation</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="two" data-image="">Lazy Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="two" data-image="">Lily Pad</li>
+      </ul>
+      <ul>    
         <!-- Three bean flower combinations -->
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="three" data-image="">Midsummer Daisy</li>
+        <hr>
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="three" data-image="">Potsen Pansy</li>
+        <hr>
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="three" data-image="">Hybrid Carnation</li>
+        <hr>
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="three" data-image="">Summer's Last Rose</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="three" data-image="">Tiger Lily</li>
+      </ul>
+      <ul>
         <!-- Four bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="four" data-image="">Giraff-o-dil</li>
+        <hr>
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="four" data-image="">Marzi Pansy</li>
+        <hr>
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="four" data-image="">Corn Rose</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="four" data-image="">Freshasa Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="four" data-image="">Livered Lily</li>
+     </ul>
+     <ul>    
         <!-- Five bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="five" data-image="">Time and half-o-dil</li>
+        <hr>
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="five" data-image="">Side Carnation</li>
+        <hr>
         <li data-flower-type="tulip" data-bean-type="purple" data-num-beans="five" data-image="">Onelip</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="five" data-image="">Whoopsie Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="five" data-image="">Chili Lily</li>
+      </ul>
+      <ul>    
         <!-- Six bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="six" data-image="">Tinted Rose</li>
+        <hr>
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="six" data-image="">Smarty Pansy</li>
+        <hr>
         <li data-flower-type="tulip" data-bean-type="purple" data-num-beans="six" data-image="">Twolip</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="six" data-image="">Upsy Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="six" data-image="">Silly Lily</li>
+      </ul>
+      <ul>    
         <!-- Seven bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="seven" data-image="">Stinking Rose</li>
+        <hr>
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="seven" data-image="">Model Carnation</li>
+        <hr>
         <li data-flower-type="petunia" data-bean-type="blue" data-num-beans="seven" data-image="">Car Petunia</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="seven" data-image="">Crazy Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="seven" data-image="">Indubitab Lily</li>
+      </ul>
+      <ul>    
         <!-- Eight bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="eight" data-image="">Istilla Rose</li>
+        <hr>
         <li data-flower-type="tulip" data-bean-type="purple" data-num-beans="eight" data-image="">Threelip</li>
+        <hr>
         <li data-flower-type="petunia" data-bean-type="blue" data-num-beans="eight" data-image="">Platoonia</li>
+        <hr>
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="eight" data-image="">Hazy Daisy</li>
+        <hr>
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="eight" data-image="">Dilly Lily</li>
       </ul>
+    </div>
+    <div class="footer-panel">
+      Spike's Rewritten Web © 2018
     </div>
   </body>
 </html>

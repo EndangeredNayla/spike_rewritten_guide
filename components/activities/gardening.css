@@ -1,0 +1,65 @@
+.gardening-panel {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 1em;
+	width: 90%;
+	margin-top: 6em;
+	margin-bottom: 2em;
+	box-shadow: 1px 1px 8px 1px silver;
+}
+
+.list {
+    margin-bottom: 3em;
+}
+
+.list ul {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 20px;
+	border-radius: 1em;
+	box-shadow: 1px 1px 8px 1px silver;
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 20px 0 20px 0;
+}
+
+.list .filtering {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.list .filtering button {
+	border: 1px solid #3069ba;
+	box-sizing: border-box;
+	padding: 7px;
+	font-family: 'Roboto', sans-serif;
+	background-color: transparent;
+	color: #3069ba;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.list .filtering button:not(:last-child) {
+	border-right: none;
+}
+
+.list .filtering button:first-child {
+	border-radius: 5px 0 0 5px;
+}
+
+.list .filtering button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.list .filtering button:hover, .list .filtering .active {
+	background-color: #3069ba50;
+}

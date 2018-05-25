@@ -1,13 +1,13 @@
 .left-align img {
 	float: left;
-	height: 35%;
+	height: 270px;
 	width: auto;
 	margin-left: -15px;
 }
 
 .right-align img {
     float: right;
-    height: 35%;
+    height: 270px;
     width: auto;
     margin-right: -10px;
 }
