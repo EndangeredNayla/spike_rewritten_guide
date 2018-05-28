@@ -1,6 +1,7 @@
 .list h2 {
 	text-align: center;
 	margin-bottom: -15px;
+	padding-top: 20px;
 }
 
 .list {
@@ -24,6 +25,20 @@
 	padding: 20px 0 20px 0;
 }
 
+.gardening-navigation {
+	color: red;
+	font-size: 13px;
+	text-align: center;
+	margin: -25px 0 2.5em 0;
+}
+
+.list ul a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	float: right;
+	padding: 23px 5px 15px 5px;
+}
+
 .list ul .bean-colors {
 	padding: 10px 5px 0 5px;
 	font-family: 'Roboto', sans-serif;
@@ -36,7 +51,7 @@
 .list .filtering {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 10px;
+	margin-bottom: -10px;
 }
 
 .list .filtering button {
