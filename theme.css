@@ -51,8 +51,8 @@ td, th {
 
 tbody tr td img {
 	vertical-align: middle;
-	height: 75px;
-	width: auto;
+	height: auto;
+	width: 80px;
 	margin: 10px 20px 20px 0;
 }
 

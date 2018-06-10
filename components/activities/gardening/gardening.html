@@ -2,6 +2,7 @@
 <html>
   <head>
     <link href="../../../theme.css" rel="stylesheet" type="text/css">
+    <link href="../../../animation.css" rel="stylesheet" type="text/css">
     <link href="../list.css" rel="stylesheet" type="text/css">
     <title>Gardening | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
@@ -11,25 +12,15 @@
       $(document).ready(function(){
         // Add smooth scrolling to all links
         $("a").on('click', function(event) {
-
-          // Make sure this.hash has a value before overriding default behavior
           if (this.hash !== "") {
-            // Prevent default anchor click behavior
             event.preventDefault();
-
-            // Store hash
             var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
               scrollTop: $(hash).offset().top
             }, 800, function(){
-        
-              // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
             });
-          } // End if
+          }
         });
       });
     </script>
@@ -164,7 +155,7 @@
           gag tree must not be removed.  
         </p>
         <hr>
-        <h2>Flower Bean Combinations</h2> 
+        <h2><a id="beanCombos">Flower Bean Combinations</a></h2> 
         <p>
           Looking for flower bean combinations? Well you came to the right place! Below, feel free to look
           through all the possible flower bean combinations that exist in Toontown Rewritten. You can
@@ -172,15 +163,15 @@
         </p>
       </div>
     </div>
-    <div class="list-navigation">
-      <a href="#oneBean">One Bean Combos</a> | <a href="#twoBean">Two Bean Combos</a>
-        | <a href="#threeBean">Three Bean Combos</a> | <a href="#fourBean">Four Bean Combos</a> | <a href="#fiveBean">Five Bean Combos</a>
-        | <a href="#sixBean">Six Bean Combos</a> | <a href="#sevenBean">Seven Bean Combos</a> | <a href="#eightBean">Eight Bean Combos</a>
-    </div>
-    <div class="list">
+    <div id="animate" class="list">
+      <div class="list-navigation">
+        <a href="#oneBean">One Bean Combos</a> | <a href="#twoBean">Two Bean Combos</a>
+          | <a href="#threeBean">Three Bean Combos</a> | <a href="#fourBean">Four Bean Combos</a> | <a href="#fiveBean">Five Bean Combos</a>
+          | <a href="#sixBean">Six Bean Combos</a> | <a href="#sevenBean">Seven Bean Combos</a> | <a href="#eightBean">Eight Bean Combos</a>
+      </div>
       <div class="filtering">
         <button name="num" class="active">Bean Cost</button>
-        <button name="type" onclick="window.location.href='gardening_species.html'">Flower Species/Color</button>
+        <button name="type" onclick="window.location.href='gardening_species.html#beanCombos'">Flower Species/Color</button>
       </div>
       <h2><a id="oneBean">One Bean Flower Combinations</a></h2>
       <ul>
