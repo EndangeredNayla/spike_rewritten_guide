@@ -6,6 +6,33 @@
     <title>Gardening | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../../images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="topnav">
@@ -47,7 +74,7 @@
     </div>
     <div class="panel">
       <div class="panel-content">
-        <h1><a name="gardeningTop">Gardening</a></h1>
+        <h1><a id="gardeningTop">Gardening</a></h1>
         <p>
           Gardening in Toontown is a great and easy way to earn an additional 4 laff points! Any toon,
           at any level, can start their own garden with the gardening kit at their estate. The gardening
@@ -130,9 +157,9 @@
         <h2>Gag Trees</h2> 
         <p>
           In addition to planting flowers, toons can also plant gag trees with, well, gags! 
-          Once fully gorwn, that gag will gain what is called an "organic bonus", which increases
+          Once fully grown, that gag will gain what is called an "organic bonus", which increases
           gag damage by 10% (rounded up), or increases accuracy for lure gags. There are a total
-          of eight abaliable spots per toon to plant a gag tree. However, to have an organic bonus
+          of eight avaliable spots per toon to plant a gag tree. However, to have an organic bonus
           on any level 2+ gag, the preceding gag in that track must also be planted and that lower
           gag tree must not be removed. 
         </p>
@@ -155,7 +182,7 @@
         <button name="num" onclick="window.location.href='gardening.html'">Bean Cost</button>
         <button name="bean" class="active">Flower Species/Color</button>
       </div>
-      <h2><a name="daffodilNav">Daffodil/Green Flower Combinations</a></h2>
+      <h2><a id="daffodilNav">Daffodil/Green Flower Combinations</a></h2>
       <ul>
         <!-- Green -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="one">Laff-o-dill</li>
@@ -177,7 +204,7 @@
            + <span style="color:pink">pink</span> + <span style="color:pink">pink</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="pansyNav">Pansy/Orange Flower Combinations</a></h2>
+      <h2><a id="pansyNav">Pansy/Orange Flower Combinations</a></h2>
       <ul>
         <!-- Orange -->
         <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="one">Dandy Pansy</li>
@@ -203,7 +230,7 @@
            + <span style="color:orange">orange</span> + <span style="color:blue">blue</span> + <span style="color:pink">pink</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="daisyNav">Daisy/Yellow Flower Combinations</a></h2>
+      <h2><a id="daisyNav">Daisy/Yellow Flower Combinations</a></h2>
       <ul>    
         <!-- Yellow -->
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="one">School Daisy</li>
@@ -246,7 +273,7 @@
            + <span style="color:orange">orange</span> + <span style="color:blueviolet">violet</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="lilyNav">Lily/Cyan Flower Combinations</a></h2>
+      <h2><a id="lilyNav">Lily/Cyan Flower Combinations</a></h2>
       <ul>
         <!-- Cyan -->
         <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="one">Lily-of-the-Alley</li>
@@ -289,7 +316,7 @@
            + <span style="color:gold">yellow</span> + <span style="color:gold">yellow</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="carnationNav">Carnation/Pink Flower Combinations</a></h2>
+      <h2><a id="carnationNav">Carnation/Pink Flower Combinations</a></h2>
       <ul>    
         <!-- Pink -->
         <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="one">What-in Carnation</li>
@@ -316,7 +343,7 @@
            + <span style="color:green">green</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="tulipNav">Tulip/Violet Flower Combinations</a></h2>
+      <h2><a id="tulipNav">Tulip/Violet Flower Combinations</a></h2>
       <ul>    
         <!-- Purple -->
         <li data-flower-type="tulip" data-bean-type="violet" data-num-beans="five">Onelip</li>
@@ -336,7 +363,7 @@
            + <span style="color:blueviolet">violet</span> + <span style="color:gold">yellow</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="roseNav">Rose/Red Flower Combinations</a></h2>
+      <h2><a id="roseNav">Rose/Red Flower Combinations</a></h2>
       <ul>    
         <!-- Red -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="three">Summer's Last Rose</li>
@@ -366,7 +393,7 @@
            + <span style="color:pink">pink</span> + <span style="color:blue">blue</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="petuniaNav">Petunia/Blue Flower Combinations</a></h2>
+      <h2><a id="petuniaNav">Petunia/Blue Flower Combinations</a></h2>
       <ul>    
         <!-- Blue -->
         <li data-flower-type="petunia" data-bean-type="blue" data-num-beans="seven">Car Petunia</li>

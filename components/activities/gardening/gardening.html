@@ -6,6 +6,33 @@
     <title>Gardening | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../../images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="topnav">
@@ -47,7 +74,7 @@
     </div>
     <div class="panel">
       <div class="panel-content">
-        <h1><a name="gardeningTop">Gardening</a></h1>
+        <h1><a id="gardeningTop">Gardening</a></h1>
         <p>
           Gardening in Toontown is a great and easy way to earn an additional 4 laff points! Any toon,
           at any level, can start their own garden with the gardening kit at their estate. The gardening
@@ -130,11 +157,11 @@
         <h2>Gag Trees</h2> 
         <p>
           In addition to planting flowers, toons can also plant gag trees with, well, gags! 
-          Once fully gorwn, that gag will gain what is called an "organic bonus", which increases
+          Once fully grown, that gag will gain what is called an "organic bonus", which increases
           gag damage by 10% (rounded up), or increases accuracy for lure gags. There are a total
-          of eight abaliable spots per toon to plant a gag tree. However, to have an organic bonus
+          of eight avaliable spots per toon to plant a gag tree. However, to have an organic bonus
           on any level 2+ gag, the preceding gag in that track must also be planted and that lower
-          gag tree must not be removed. 
+          gag tree must not be removed.  
         </p>
         <hr>
         <h2>Flower Bean Combinations</h2> 
@@ -155,7 +182,7 @@
         <button name="num" class="active">Bean Cost</button>
         <button name="type" onclick="window.location.href='gardening_species.html'">Flower Species/Color</button>
       </div>
-      <h2><a name="oneBean">One Bean Flower Combinations</a></h2>
+      <h2><a id="oneBean">One Bean Flower Combinations</a></h2>
       <ul>
         <!-- One bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="one">Laff-o-dill</li>
@@ -179,7 +206,7 @@
         <div class="bean-colors" style="color:darkturquoise">cyan</div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="twoBean">Two Bean Flower Combinations</a></h2>
+      <h2><a id="twoBean">Two Bean Flower Combinations</a></h2>
       <ul>
         <!-- Two bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="two">Daffy Dill</li>
@@ -203,7 +230,7 @@
         <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:green">green</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="threeBean">Three Bean Flower Combinations</a></h2>
+      <h2><a id="threeBean">Three Bean Flower Combinations</a></h2>
       <ul>    
         <!-- Three bean flower combinations -->
         <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="three">Midsummer Daisy</li>
@@ -227,7 +254,7 @@
         <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:orange">orange</span> + <span style="color:orange">orange</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="fourBean">Four Bean Flower Combinations</a></h2>
+      <h2><a id="fourBean">Four Bean Flower Combinations</a></h2>
       <ul>
         <!-- Four bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="four">Giraff-o-dil</li>
@@ -256,7 +283,7 @@
            + <span style="color:pink">pink</span></div>
         <a href="#gardeningTop">Back to Top</a>
      </ul>
-     <h2><a name="fiveBean">Five Bean Flower Combinations</a></h2>
+     <h2><a id="fiveBean">Five Bean Flower Combinations</a></h2>
      <ul>    
         <!-- Five bean flower combinations -->
         <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="five">Time and half-o-dil</li>
@@ -285,7 +312,7 @@
            + <span style="color:red">red</span> + <span style="color:red">red</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="sixBean">Six Bean Flower Combinations</a></h2>
+      <h2><a id="sixBean">Six Bean Flower Combinations</a></h2>
       <ul>    
         <!-- Six bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="six" >Tinted Rose</li>
@@ -314,7 +341,7 @@
            + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="sevenBean">Seven Bean Flower Combinations</a></h2>
+      <h2><a id="sevenBean">Seven Bean Flower Combinations</a></h2>
       <ul>
         <!-- Seven bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="seven" >Stinking Rose</li>
@@ -348,7 +375,7 @@
            + <span style="color:blue">blue</span></div>
         <a href="#gardeningTop">Back to Top</a>
       </ul>
-      <h2><a name="eightBean">Eight Bean Flower Combinations</a></h2>
+      <h2><a id="eightBean">Eight Bean Flower Combinations</a></h2>
       <ul>    
         <!-- Eight bean flower combinations -->
         <li data-flower-type="rose" data-bean-type="red" data-num-beans="eight" >Istilla Rose</li>

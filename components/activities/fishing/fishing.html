@@ -6,6 +6,23 @@
     <link href="../list.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="topnav">
@@ -47,16 +64,25 @@
     </div>
     <div class="panel">
       <div class="panel-content">
-        <h1>Fishing</h1>
+        <h1><a id="fishingTop">Fishing</a></h1>
       </div>
+    </div>
+    <div class="list-navigation">
+      <a href="#balloon">Balloon Fish</a> | <a href="#jellyfish">Jellyfish</a>
+        | <a href="#catfish">Cat Fish</a> | <a href="#clownfish">Clown Fish</a> | <a href="#frozen">Frozen Fish</a>
+        | <a href="#starfish">Star Fish</a> | <a href="#holey">Holey Mackerel</a> | <a href="#dogfish">Dog Fish</a>
+        | <a href="#devil">Devil Ray</a><br><a href="#eel">Amore Eel</a> | <a href="#shark">Nurse Shark</a>
+        | <a href="#crab">King Crab</a> | <a href="#moonfish">Moon Fish</a> | <a href="#seahorse">Sea Horse</a>
+        | <a href="#poolshark">Pool Shark</a> | <a href="#acuda">Bear Acuda</a> | <a href="#trout">Cutthroat Trout</a>
+        | <a href="#piano">Piano Tuna</a>
     </div>
     <div class="list">
       <div class="filtering">
-        <button name="species" class="active">By Species</button>
-        <button name="rod" onclick="window.location.href='fishing_rods.html'">By Rods</button>
-        <button name="pond" onclick="window.location.href='fishing_ponds.html'">By Ponds</button>
+        <button name="species" class="active">By Fish</button>
+        <button name="rod" onclick="window.location.href='fishing_rods.html'">By Rod</button>
+        <button name="pond" onclick="window.location.href='fishing_ponds.html'">By Pond</button>
       </div>
-      <h2>Balloon Fish</h2>
+      <h2><a id="balloon">Balloon Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/balloonfish.png">
         <table>
@@ -107,8 +133,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Jellyfish</h2>
+      <h2><a id="jellyfish">Jellyfish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/jellyfish.png">
         <table>
@@ -159,8 +186,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Cat Fish</h2>
+      <h2><a id="catfish">Cat Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/catfish.png">
         <table>
@@ -211,8 +239,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Clown Fish</h2>
+      <h2><a id="clownfish">Clown Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/clownfish.png">
         <table>
@@ -256,8 +285,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Frozen Fish</h2>
+      <h2><a id="frozen">Frozen Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/frozenfish.png">
         <table>
@@ -280,8 +310,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Star Fish</h2>
+      <h2><a id="starfish">Star Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/starfish.png">
         <table>
@@ -332,8 +363,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Holey Mackerel</h2>
+      <h2><a id="holey">Holey Mackerel</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/holeymackerel.png">
         <table>
@@ -356,8 +388,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Dog Fish</h2>
+      <h2><a id="dogfish">Dog Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/dog.png">
         <table>
@@ -408,8 +441,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Devil Ray</h2>
+      <h2><a id="devil">Devil Ray</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/devilray.png">
         <table>
@@ -432,8 +466,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Amore Eel</h2>
+      <h2><a id="eel">Amore Eel</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/amoreeel.png">
         <table>
@@ -463,8 +498,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Nurse Shark</h2>
+      <h2><a id="shark">Nurse Shark</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/nurseshark.png">
         <table>
@@ -501,8 +537,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>King Crab</h2>
+      <h2><a id="crab">King Crab</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/kingcrab.png">
         <table>
@@ -539,8 +576,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Moon Fish</h2>
+      <h2><a id="moonfish">Moon Fish</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/moonfish.png">
         <table>
@@ -598,8 +636,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Sea Horse</h2>
+      <h2><a id="seahorse">Sea Horse</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/seahorse.png">
         <table>
@@ -643,8 +682,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Pool Shark</h2>
+      <h2><a id="poolshark">Pool Shark</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/poolshark.png">
         <table>
@@ -688,8 +728,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Bear Acuda</h2>
+      <h2><a id="acuda">Bear Acuda</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/bearacuda.png">
         <table>
@@ -761,8 +802,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Cutthroat Trout</h2>
+      <h2><a id="trout">Cutthroat Trout</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/cuttthroat.png">
         <table>
@@ -799,8 +841,9 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
-      <h2>Piano Tuna</h2>
+      <h2><a id="piano">Piano Tuna</a></h2>
       <ul>
         <img class="list-fish" src="../../../images/fish/pianofish.png">
         <table>
@@ -851,6 +894,7 @@
             </tr>
           </tbody>
         </table>
+        <a href="#fishingTop">Back to Top</a>
       </ul>
     </div>
     <div class="footer-panel">
