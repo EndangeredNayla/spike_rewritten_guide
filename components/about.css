@@ -20,6 +20,8 @@
 
 .img-hover img {
 	display: none;
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
 }
 
 .img-hover:hover img {
@@ -36,4 +38,6 @@
 	right: 0;
 	margin: 0 auto;
 	margin-top: 4px;
+	opacity: 1;
+	transition: opacity .5s ease-in-out;
 }
