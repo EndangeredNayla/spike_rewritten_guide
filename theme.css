@@ -1,5 +1,19 @@
+html {
+	height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
+	position: relative;
 	margin: 0;
+	min-height: 100%;
+	padding-bottom: 3rem;
 	font-family: 'Roboto', sans-serif;
 	background-color: #cae6f4;
 	background-image: url("images/chipndales-background.jpg");
@@ -80,10 +94,20 @@ tr th img {
 	color: white;
 	font-family: 'Luckiest Guy', cursive;
 	text-align: center;
-	padding: 30px 50px;
+	padding: 30px 40px;
 	text-decoration: none;
 	text-shadow: 0 0 13px #285b9f;
 	font-size: 25px;
+	transition: text-shadow .15s linear;
+}
+
+.topnav img {
+	margin: -30px -50px;
+	padding: 10px 85px 0 10px;
+	float: left;
+	height: 85px;
+	width: auto;
+	cursor: pointer;
 }
 
 .dropdown {
@@ -99,8 +123,9 @@ tr th img {
 	border: none;
 	outline: none;
 	color: white;
-	padding: 30px 47px 30px 50px;
+	padding: 30px 37px 30px 40px;
 	margin: 0;
+	transition: text-shadow .15s linear;
 	background-color: inherit;
 }
 
@@ -113,7 +138,7 @@ tr th img {
 	position: absolute;
 	width: auto;
 	margin: -30px 0 0 -30px;
-	padding: 0 70px 50px 37px;
+	padding: 0 60px 50px 27px;
 	background-image: url("images/cartoon-cloud.png");
 	background-repeat: no-repeat;
 	background-size: 100% 150px; 
@@ -159,8 +184,11 @@ tr th img {
 }
 
 .footer-panel {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	width: 100%;
-	box-sizing: border-box;
 	color: #6294d6;
 	display: flex;
 	justify-content:space-between; 
@@ -184,6 +212,69 @@ ul li {
 	padding: 5px;
 	font-size: 18px;
 	font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #cae6f455; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6294d655; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3469af55; 
+}
+
+.tooltip {
+    position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+	width: 100px;
+	font-size: 12px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+	padding: 3px 0;
+	text-shadow: none;
+
+    /* Position the tooltip */
+    position: absolute;
+	z-index: 1;
+	top: 8px;
+	left: 130%;
+
+	/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent grey transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
 }
 
 /* .google-search {

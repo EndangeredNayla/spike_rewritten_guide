@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../theme.css" rel="stylesheet" type="text/css">
+    <link href="../sidenav.css" rel="stylesheet" type="text/css">
     <link href="about.css" rel="stylesheet" type="text/css">
     <title>About | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
   </head>
-  <body>
+  <body id="main">
     <div class="topnav">
-      <a href="../index.html">Home</a>
+      <a href="../index.html">
+        <img src="../images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
+      </a>
       <div class="dropdown">
         <button class="dropbtn">Activities&#9662
         </button>
@@ -33,6 +37,29 @@
       </div>
       <a href="toontips.html">Toon Tips</a>
       <a href="about.html">About</a>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html">Home</a>
+      <a href="javascript:void(0)" style="cursor:context-menu">Activities</a>
+      <ul>
+        <li><a href="activities/gardening/gardening.html">Gardening</a></li>
+        <li><a href="activities/fishing/fishing.html">Fishing</a></li>
+        <li><a href="activities/racing.html">Racing</a></li>
+        <li><a href="activities/golfing.html">Golfing</a></li>
+      </ul>
+      <a href="javascript:void(0)" style="cursor:context-menu">Cogs</a>
+      <ul>
+        <li><a href="cogs/sellbot.html">Sellbot</a></li>
+        <li><a href="cogs/cashbot.html">Cashbot</a></li>
+        <li><a href="cogs/lawbot.html">Lawbot</a></li>
+        <li><a href="cogs/bossbot.html">Bossbot</a></li>
+      </ul>
+      <a href="toontips.html">Toon Tips</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="tooltip openbtn" onclick="openNav()">
+      &#9776<span class="tooltiptext">Open Navigation</span>
     </div>
     <div class="panel">
       <div class="panel-content">
@@ -94,5 +121,15 @@
       </div>
       <div>Spike's Rewritten Guide © 2018</div>
     </div>
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "255px";
+          document.getElementById("main").style.marginLeft = "255px";
+      }
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
   </body>
 </html>

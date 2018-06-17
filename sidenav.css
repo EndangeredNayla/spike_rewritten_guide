@@ -1,0 +1,71 @@
+.sidenav {
+    font-family: 'Luckiest Guy', cursive;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.25);;
+    border-right: 1px solid #6294d655;
+    overflow-x: hidden;
+    padding-top: 50px;
+    /*padding-bottom: 50px;*/
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 13px #285b9f;
+	font-size: 22px;
+	transition: text-shadow .15s linear;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.sidenav ul li {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.sidenav a:hover {
+    text-shadow: 0 0 13px red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    position: fixed;
+    top: 48%;
+    font-size: 25px;
+    color: #6294d6;
+    cursor: pointer;
+    transition: text-shadow .15s linear;
+    margin-right: 10px;
+}
+
+.openbtn:hover {
+    text-shadow: 0 0 7px #6294d6;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
