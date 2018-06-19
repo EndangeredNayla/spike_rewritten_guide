@@ -222,17 +222,17 @@ ul li {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #cae6f455; 
+    background: #cae6f465; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #6294d655; 
+    background: #6294d665; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3469af55; 
+    background: #3469af65; 
 }
 
 .tooltip {
