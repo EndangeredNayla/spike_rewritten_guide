@@ -65,9 +65,9 @@
     <div class="panel">
       <div class="panel-content">
         <h1>Send Spike a Message!</h1>
-        <form name="myform">
-          <label for="fname">Your Toon Name</label>
-          <input type="text" id="tname" name="toonname" placeholder="Please tell me your toon's name!">
+        <form name="myform" action="action_page.php" method="POST">
+          <label for="tname">Your Toon Name</label>
+          <input type="text" id="tname" name="tname" placeholder="Please tell me your toon's name!">
           <label for="toontype">Toon Species</label>
           <select id="toontype" name="toontype">
             <option value="cat">Cat</option>
@@ -89,31 +89,13 @@
         </form>
       </div>
     </div>
-    <script>
-      function mailOut() {
-    	  document.location.href = "mailto:ctripoll@yahoo.com?subject=" + document.myform.toonname + " | Spike's Rewritten Guide Message&body=" 
-                  + document.myform.message + "\n(" + document.myform.toontype + ") Reply to: " + document.myform.returnaddr;
-    	  alert("Message sent!");
-    	  return window.open("contact.html", "_self", true);
-      }
-    </script>
     <div class="footer-panel">
       <div>
         <a href="contact.html">Contact Spike</a>
         <a href="faq.html">FAQ</a>
         <a href="sitemap.html">Site Map</a>
       </div>
-      <div>Spike's Rewritten Guide © 2018</div>
+      <div>Spike's Rewritten Guide &copy; 2018</div>
     </div>
-    <script>
-      function openNav() {
-          document.getElementById("mySidenav").style.width = "255px";
-          document.getElementById("main").style.marginLeft = "255px";
-      }
-      function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
   </body>
 </html>
