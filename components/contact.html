@@ -2,12 +2,14 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <link href="../theme.css" rel="stylesheet" type="text/css">
     <link href="../sidenav.css" rel="stylesheet" type="text/css">
     <link href="contact.css" rel="stylesheet" type="text/css">
     <title>Contact | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
+    <script src="contact_form.js"></script>
   </head>
   <body id="main">
     <div class="topnav">
@@ -61,15 +63,15 @@
     <div class="tooltip openbtn" onclick="openNav()">
       &#9776<span class="tooltiptext">Open Navigation</span>
     </div>
-    <div>This page is under construction. Contact form submission doesn't work yet. Submit button disabled for now.</div>
     <div class="panel">
       <div class="panel-content">
         <h1>Send Spike a Message!</h1>
-        <form name="myform" action="action_page.php" method="POST">
-          <label for="tname">Your Toon Name</label>
-          <input type="text" id="tname" name="tname" placeholder="Please tell me your toon's name!">
-          <label for="toontype">Toon Species</label>
-          <select id="toontype" name="toontype">
+        <p>Page under construction. For now, send all inquiries directly to spikes.rewritten.guide@gmail.com</p>
+        <form id="contactform">
+          <label>Toon Name<span style="color:red;"> * </span></label>
+          <input type="text" id="tname" placeholder="Please tell me your toon's name!">
+          <label>Toon Species</label>
+          <select id="toontype">
             <option value="cat">Cat</option>
             <option value="dog">Dog</option>
             <option value="rabbit">Rabbit</option>
@@ -81,11 +83,11 @@
             <option value="deer">Deer</option>
             <option value="crocodile">Crocodile</option>
           </select>
-          <label for="returnaddr">Your Email Address</label>
-          <input type="email" id="returnaddr" name="returnaddress" placeholder="Please tell me your email so I can respond!">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" placeholder="Type your message here!" style="height:200px"></textarea>
-          <button type="submit" disabled>Submit</button>
+          <label>Email Address<span style="color:red;"> * </span></label>
+          <input type="email" id="returnaddr" placeholder="Please tell me your email so I can respond!">
+          <label>Message<span style="color:red;"> * </span></label>
+          <textarea id="message" placeholder="Type your message here!" style="height:200px"></textarea>
+          <button type="submit" id="submit">Submit</button>
         </form>
       </div>
     </div>
