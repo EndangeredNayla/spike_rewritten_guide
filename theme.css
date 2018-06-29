@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	min-height: 100%;
 	padding-bottom: 4rem;
+	padding-top: 6rem;
 	font-family: 'Roboto', sans-serif;
 	background-color: #cae6f4;
 	background-image: url("images/chipndales-background.jpg");
@@ -84,20 +85,33 @@ tr th img {
 	height: auto;
 }
 
-.topnav {
+nav {
+	position: absolute;
+	top: 0;
 	width: 100%;
 	box-sizing: border-box;
 	overflow: hidden;
 	padding: 5px 15px;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.3);
 	border-bottom: 1px solid #6294d655;
+	transition: all .4s ease-in-out;
+	overflow: visible;
+	z-index: 1;
 }
 
-.topnav a {
+.shrink {
+	position: fixed;
+    margin-bottom: 50px;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+nav a {
 	cursor: pointer;
 	float: left;
 	color: white;
 	font-family: 'Luckiest Guy', cursive;
+	font-weight: 400;
 	text-align: center;
 	padding: 30px 40px;
 	text-decoration: none;
@@ -106,13 +120,24 @@ tr th img {
 	transition: text-shadow .15s linear;
 }
 
-.topnav img {
+.shrink a {
+	padding: 9px 30px;
+	font-size: 20px;
+}
+
+nav img {
 	margin: -30px -50px;
 	padding: 10px 85px 0 10px;
 	float: left;
 	height: 85px;
 	width: auto;
 	cursor: pointer;
+}
+
+.shrink img {
+    margin: -9px -50px;
+	padding: 0 75px 0 12px;
+	height: 45px;
 }
 
 .dropdown {
@@ -124,6 +149,7 @@ tr th img {
 	cursor: pointer;
 	font-family: 'Luckiest Guy', cursive;
 	text-shadow: 0 0 13px #285b9f;
+	font-weight: 400;
 	font-size: 25px;
 	border: none;
 	outline: none;
@@ -134,11 +160,16 @@ tr th img {
 	background-color: inherit;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.shrink .dropdown .dropbtn {
+	font-size: 20px;
+	padding: 9px 27px 9px 30px;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
 	text-shadow: 0 0 13px red;
 }
 
-.dropdown-content {
+nav .dropdown-content {
 	display: none;
 	position: absolute;
 	width: auto;
@@ -150,17 +181,29 @@ tr th img {
 	z-index: 1;
 }
 
-.dropdown-content a {
+.shrink .dropdown-content {
+	margin: -11px 0 0 -20px;
+	padding: 0 55px 45px 24px;
+	background-size: 100% 98px; 
+}
+
+nav .dropdown-content a {
 	color: white;
 	padding: 67px 30px 30px 30px;
-    font-family: 'Luckiest Guy', cursive;
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: 400;
 	text-decoration: none;
     text-shadow: 0 0 10px red;
     text-align: center;
-    font-size: 20px;
+	font-size: 20px;
 }
 
-.dropdown:hover .dropdown-content {
+.shrink .dropdown-content a {
+	padding: 40px 17px 17px 17px;
+	font-size: 17px;	
+}
+
+nav .dropdown:hover .dropdown-content {
 	display: block;
 }
 
@@ -199,7 +242,7 @@ tr th img {
 	justify-content:space-between; 
 	margin-top: 7em;
 	padding: 5px;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.3);
 	border-top: 1px solid #6294d655;
 	font-size: 13px;
 }

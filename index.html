@@ -7,9 +7,12 @@
     <title>Home | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
   </head>
   <body id="main">
-    <div class="topnav">
+    <nav>
       <a href="index.html">
         <img src="images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
       </a>
@@ -36,49 +39,7 @@
       </div>
       <a href="components/toontips.html">Toon Tips</a>
       <a href="components/about.html">About</a>
-      <!-- <form method="get" action="http://www.google.com/search">
-        <div class="google-search">
-          <table align="center">
-            <tr>
-              <td>
-                <input type="text" name="q" size="25" maxlength="255" value="" />
-                <input type="submit" value="Google Search" />
-              </td>
-            </tr>
-            <tr>
-              <td align="center">
-                <input type="radio" name="sitesearch" value="" />Search Google
-                <input type="radio" name="sitesearch"
-                value="ctripoll.github.io/rewritten_guide/" checked />Search Spike's Rewritten Guide
-              </td>
-            </tr>
-          </table>
-        </div>
-      </form> -->
-    </div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="javascript:void(0)" style="cursor:context-menu">Activities</a>
-      <ul>
-        <li><a href="components/activities/gardening/gardening.html">Gardening</a></li>
-        <li><a href="components/activities/fishing/fishing.html">Fishing</a></li>
-        <li><a href="components/activities/racing.html">Racing</a></li>
-        <li><a href="components/activities/golfing.html">Golfing</a></li>
-      </ul>
-      <a href="javascript:void(0)" style="cursor:context-menu">Cogs</a>
-      <ul>
-        <li><a href="components/cogs/sellbot.html">Sellbot</a></li>
-        <li><a href="components/cogs/cashbot.html">Cashbot</a></li>
-        <li><a href="components/cogs/lawbot.html">Lawbot</a></li>
-        <li><a href="components/cogs/bossbot.html">Bossbot</a></li>
-      </ul>
-      <a href="components/toontips.html">Toon Tips</a>
-      <a href="components/about.html">About</a>
-    </div>
-    <div class="tooltip openbtn" onclick="openNav()">
-      &#9776<span class="tooltiptext">Open Navigation</span>
-    </div>
+    </nav>
     <div class="logo">
       <img src="images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">
     </div>
@@ -113,15 +74,6 @@
       </div>
       <div>Spike's Rewritten Guide &copy; 2018</div>
     </div>
-    <script>
-      function openNav() {
-          document.getElementById("mySidenav").style.width = "255px";
-          document.getElementById("main").style.marginLeft = "255px";
-      }
-      function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
+    <script src="shared/shrink-nav.js"></script>
   </body>
 </html>
