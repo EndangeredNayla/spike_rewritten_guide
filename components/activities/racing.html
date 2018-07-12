@@ -3,13 +3,14 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../theme.css" rel="stylesheet" type="text/css">
-    <link href="../../sidenav.css" rel="stylesheet" type="text/css">
     <title>Racing | Spike's Rewritten Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../shared/scroll.js"></script>
   </head>
   <body id="main">
     <nav>
@@ -17,7 +18,7 @@
         <img src="../../images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
       </a>
       <div class="dropdown">
-        <button class="dropbtn">Activities&#9662
+        <button class="dropbtn">Activities&#9662;
         </button>
         <div class="dropdown-content">
           <a href="gardening/gardening.html">Gardening</a>
@@ -28,7 +29,7 @@
         </div>
       </div>
       <div class="dropdown">
-        <button class="dropbtn">Cogs&#9662
+        <button class="dropbtn">Cogs&#9662;
         </button>
         <div class="dropdown-content">
           <a href="../cogs/sellbot.html">Sellbot</a>
@@ -40,6 +41,162 @@
       <a href="../toontips.html">Toon Tips</a>
       <a href="../about.html">About</a>
     </nav>
+    <div class="panel">
+      <div class="panel-content">
+        <h1>Kart Racing</h1>
+        <p>
+          Racing?! In Toontown!? G'arsh! Racing is a super fun activity and an exhilarating way to earn 3
+          additonal laff points for your toon. It is also a fantastic way to spend time with toon friends!
+          Are you ready to cross the finish line? Any toon at any level can head on over to the speedway
+          and race all day and all night!
+        </p>
+        <div style="display:flex;justify-content:space-around;">
+          <a href="#gs">Goofy Speedway</a>
+          <a href="#about">All About Racing</a>
+          <a href="#tracks">Race Tracks</a>
+          <a href="#trophies">Trophies</a>
+        </div>
+        <h2 id="gs">Goofy Speedway</h2>
+        <p>
+          You might be asking, where do I go to race? Goofy Speedway! Goofy Speedway can be found
+          through a tunnel, resembling a tire, located in Toontown Central (circled below). This is right past Toon HQ, next
+          to the Clothing Shop. Once visited, a toon will automatically recieve teleport access to the playground.
+        </p>
+        <img style="display:block;margin-left:auto;margin-right:auto;height:240px;width:auto;" src="../../images/Toontown_Central_Map.jpg">
+        <p>
+          At Goofy Speedway, a toon can purchase their very own kart, earn tickets by racing on the tracks, set/beat time records,
+          and earn trophies by racing other toons.
+          Even though Goofy Speedway is another playground, it is very unlike all of the other main playgrounds across Toontown. There are no
+          fishing ponds or gag shops, but there is a unique kart shop. Likewise, the speedway uses its own form of currency for payouts and rewards.
+        </p>
+        <h3>Tickets</h3>
+        <p>
+          Unlike the rest of Toontown, jellybeans is not a valid form of payment at Goofy's Speedway. Here, tickets
+          are used to purchase accessories, karts, join battle races, and join grand prix races. Tickets cannot be used anywhere else in Toontown,
+          only at Goofy Speedway. However, do not try to eat tickets, they are not as tasty as jellybeans.
+        </p>
+        <p>
+          A toon should never loose any tickets, besides when purchasing a racing item. Any race completed will provide some sort of profit
+          as a reward. The only time tickets would be lost is if a race is started but never completed.
+        </p>
+        <h3>Goofy's Kart Shop</h3>
+        <p>
+          In order to race on the tracks, a toon must purchase a kart, which can be done at the Kart Shop!
+          Every toon starts out with 200 tickets, which allows them to buy the cheapest kart avaliable: the almighty Cruiser.
+          Also avaliable are kart accessories and paint jobs, but this is all cosmetic and, honestly, can make a kart look
+          super fast and cool. To access purchased acessories, open the Shticker Book and navigate to the driving wheel symbol. Navigate to
+          the "Customize" tab and customize away!
+        </p>
+        <img style="display:block;margin-left:auto;margin-right:auto;height:150px;width:400px;" src="../../images/GoofySpeedwayKarts.gif">
+        <p style="text-align:center;">
+          <i>From left to right: Cruiser, Toon Utility Vehicle, and Roadster</i>
+        </p>
+        <h2 id="about">All About Racing</h2>
+        <p>
+          To join a race, walk up to one of the six race tunnels in the Speedway. There are four spots in front of each tunnel,
+          approach one and a popup box asking if you would like to join a race will appear. Information for a race is shown on boards
+          displayed on each race tunnel. There is a regular and a rev choice, where rev stands for the reverse version of a track.
+        </p>
+        <img style="display:block;margin-left:auto;margin-right:auto;height:220px;width:auto;border-radius:1em;" src="../../images/racing_tunnels.jpg">
+        <p>
+          Toons can race on a variety of tracks to earn tickets, which in turn are used to enter more races or upgrade/enhance karts.
+          While in a race, to move the kart, use the arrow keys &#8592;&#8593;&#8594;&#8595;.
+          AWSD is not a valid controlling method in toon racing. Press CTRL to use an attack.
+        </p>
+        <p>
+          Toons can also set records for the current district they are in. In the middle of the speedway playground is a score board that displays
+          the high scores for each track. Toon records are stored in the Shticker Book. If a new record is set upon completing a race, a toon will
+          earn an additional 1000 tickets! Records are not applicable to practice races.
+        </p>
+        <h3>Practice Races</h3>
+        <p>
+          Practice races require no ticket deposit to enter and can be raced solo. There are no attack items to collect on the track, just
+          driving around the track. Each toon in the practice race will receive 20 tickets for qualifying at the end. Trophies cannot be earned
+          by doing practice races and records cannot be set. Practice races are a great way to become familar with a track layout and get a feel for
+          controlling a kart on it.
+        </p>
+        <h3>Toon Battle</h3>
+        <p>
+          For battle races, toons must race in a party of 2 to 4 toons. Dissimilar to practice races, battle races have payouts and
+          deposits. Finishing in a higher place will earn a toon more tickets as a reward. Most trophies are earned through toon battle races and
+          records can be set and beat during these races.
+        </p>
+        <p>
+          While racing, on the track there will be item boxes. Upon collecting one, a toon will be given a random attack to use,
+          similar to how Mario Kart works! There are four different types of attacks, each with a different purpose:
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Attack</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Banana Peel</td>
+              <td>Drops a banana peel behind the driving kart, waiting for a passerbyer to hit it</td>
+            </tr>
+            <tr>
+              <td>Whole Cream Pie</td>
+              <td>Throws a giant whole cream pie towards a leading toon. Splatters cream on the hit toons screen</td>
+            </tr>
+            <tr>
+              <td>Turbo Boost</td>
+              <td>Gives a boost of speed, allowing for larger lead or catch up</td>
+            </tr>
+            <tr>
+              <td>Anvil</td>
+              <td>Drops a giant anvil on the 1st place kart, causing them to come to a full stop</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Grand Prix</h3>
+        <p>
+          Grand Prix races have the same rules as Toon Battle races. But in these types of events, toons will
+          races through three tracks in a row (speedway, rural, and urban). These types of race events is where a toon will earn
+          sweeping trophies, which mean one toon wins all three races in the series. Grand Prix races are avaliable on Mondays.
+        </p>
+        <h2 id="tracks">Race Tracks</h2>
+        <p>
+          There 6 total avaliable tracks to race on at Goofy Speedyway. Racing on each one at least one time will earn a toon
+          the Grand Touring trophy. The list below is in order of length, difficulty, ticket deposit, and ticket reward
+          (top to bottom:lowest to greatest).
+          <ul>
+            <li style="font-weight:400;font-size:16px;">Speedway Races</li>
+            <ul>
+              <li style="font-weight:400;font-size:16px;">Screwball Stadium</li>
+              <li style="font-weight:400;font-size:16px;">Corkscrew Coliseum</li>
+            </ul>
+            <li style="font-weight:400;font-size:16px;">Rural Races</li>
+            <ul>
+              <li style="font-weight:400;font-size:16px;">Airborne Acres</li>
+              <li style="font-weight:400;font-size:16px;">Rustic Raceway</li>
+            </ul>
+            <li style="font-weight:400;font-size:16px;">Urban Races</li>
+            <ul>
+              <li style="font-weight:400;font-size:16px;">City Circuit</li>
+              <li style="font-weight:400;font-size:16px;">Blizzard Boulevard</li>
+            </ul>
+          </ul>
+        </p>
+        <h2 id="trophies">Trophies</h2>
+        <p>
+          Here is the exciting part... There are 3 earnable laff points through kart racing! How does one get them? By earning
+          trophies of course. There are 30 avaliable racing trophies and for every 10 earned, a laff point is earned.
+          Sounds easy right? Well, I'll let you make that judgement...
+        </p>
+        <img style="height:450px;width:auto;display:block;margin-left:auto;margin-right:auto;padding-bottom:10px;"
+          src="../../images/racing_trophies.jpg" title="Created by Nutty Zooblenerd, Modified by Spike">
+      </div>
+      <div style="display:flex;justify-content:space-around;">
+        <a href="#gs">Goofy Speedway</a>
+        <a href="#about">All About Racing</a>
+        <a href="#tracks">Race Tracks</a>
+        <a href="#trophies">Trophies</a>
+      </div>
+      <br>
+    </div>
     <div class="footer-panel">
       <div>
         <a href="../contact.html">Contact Spike</a>
