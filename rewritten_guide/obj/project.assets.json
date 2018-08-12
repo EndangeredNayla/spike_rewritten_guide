@@ -12669,11 +12669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ctrip\\source\\repos\\rewritten_guide\\rewritten_guide\\rewritten_guide.csproj",
+      "projectUniqueName": "C:\\Users\\ctrip\\git\\rewritten_guide\\rewritten_guide\\rewritten_guide.csproj",
       "projectName": "rewritten_guide",
-      "projectPath": "C:\\Users\\ctrip\\source\\repos\\rewritten_guide\\rewritten_guide\\rewritten_guide.csproj",
+      "projectPath": "C:\\Users\\ctrip\\git\\rewritten_guide\\rewritten_guide\\rewritten_guide.csproj",
       "packagesPath": "C:\\Users\\ctrip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ctrip\\source\\repos\\rewritten_guide\\rewritten_guide\\obj\\",
+      "outputPath": "C:\\Users\\ctrip\\git\\rewritten_guide\\rewritten_guide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

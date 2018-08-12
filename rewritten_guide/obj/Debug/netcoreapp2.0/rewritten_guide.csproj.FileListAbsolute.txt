@@ -9,3 +9,14 @@ C:\Users\ctrip\source\repos\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp
 C:\Users\ctrip\source\repos\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.AssemblyInfo.cs
 C:\Users\ctrip\source\repos\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.dll
 C:\Users\ctrip\source\repos\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.pdb
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\bin\Debug\netcoreapp2.0\rewritten_guide.deps.json
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\bin\Debug\netcoreapp2.0\rewritten_guide.runtimeconfig.json
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\bin\Debug\netcoreapp2.0\rewritten_guide.runtimeconfig.dev.json
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\bin\Debug\netcoreapp2.0\rewritten_guide.dll
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\bin\Debug\netcoreapp2.0\rewritten_guide.pdb
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.csprojAssemblyReference.cache
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.csproj.CoreCompileInputs.cache
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.AssemblyInfoInputs.cache
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.AssemblyInfo.cs
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.dll
+C:\Users\ctrip\git\rewritten_guide\rewritten_guide\obj\Debug\netcoreapp2.0\rewritten_guide.pdb
