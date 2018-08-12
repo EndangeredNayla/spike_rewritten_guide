@@ -1,0 +1,432 @@
+@{
+    ViewData["Title"] = "Gardening";
+}
+
+<link href="~/css/list.css" rel="stylesheet" type="text/css">
+
+<div class="panel">
+    <div class="panel-content">
+        <h1><a id="gardeningTop">Gardening</a></h1>
+        <p>
+            Gardening in Toontown is a great and easy way to earn an additional 4 laff points! Any toon,
+            at any level, can start their own garden with the gardening kit at their estate. The gardening
+            kit is purchasable in Clarabelle's Cattlelog. Once received, a gardening guide will be shown,
+            then tree plots and gardening trays will assemble itself around a toons estate.
+        </p>
+        <div style="display:flex;justify-content:space-around;">
+            <a href="#plant">How to Plant Flowers</a>
+            <a href="#shovel">Shovels & Watering Cans</a>
+            <a href="#trees">Gag Trees</a>
+            <a href="#statues">Statues</a>
+            <a href="#beanCombos">Flower Bean Combinations</a>
+        </div>
+        <h2 id="plant">How to Plant Flowers <a href="~/doc/gardening.pdf" title="Visual How To PDF guide" target="_blank"><img src="~/images/download.png" height="20px" width="auto"></a></h2>
+        <p>
+            To start planting flower, simply walk up to one of the 10 avaliable flower planting spots surrounding
+            the toon estate and click "Plant Flower". Upon clicking that, the jellybean choser will pop up and a toon
+            will have to put in a correct flower jellybean combination to successfully plant a flower. Remember to water
+            all of the flowers planted, or they will not be avaliable to harvest the next day. All plants that were planted
+            and watered before midnight will grow at 1:00 AM Pacific time. To sell flowers, approach the wheel barrow at the estate.
+            Flowers sell for double the plant cost. Click <a href="#beanCombos">here</a> to check out all of the jellybean flower
+            combinations!
+        </p>
+        <p>
+            Similar to <a asp-area="" asp-controller="Home" asp-action="Fishing">fishing</a>, with every 10 new species of flowers discovered,
+            a laff point is earned! There are a total of 40 flower species and 4 earnable gardening trophies.
+        </p>
+        <h2 id="shovel">Shovels & Watering Cans</h2>
+        <p>
+            To discover new flower species, toons must advance their shovel. There are currently
+            four different shovels that can be used to garden. To advance the shovel, flowers must be
+            planted and watered at the highest level (jellybean cost) and harvested each day, to earn up to a maximum
+            of 10 points a day. The following chart is a great source to use to know when a shovel will upgrade
+            and when laff points can be earned:
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <th>Shovel</th>
+                <th>Points to Advance</th>
+                <th>Shovel Level</th>
+                <th>Flower Jellybean Cost</th>
+                <th>Laff Point?</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Tin</td>
+                <td>0 - 39</td>
+                <td>1</td>
+                <td>1 jellybean</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Tin</td>
+                <td>40 - 79</td>
+                <td>2</td>
+                <td>2 jellybeans</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Bronze</td>
+                <td>0 - 79</td>
+                <td>1</td>
+                <td>3 jellybeans</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Bronze</td>
+                <td>80 - 159</td>
+                <td>2</td>
+                <td>4 jellybeans</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>0 - 159</td>
+                <td>1</td>
+                <td>5 jellybeans</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>160 - 319</td>
+                <td>2</td>
+                <td>6 jellybeans</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Gold</td>
+                <td>0 - 319</td>
+                <td>1</td>
+                <td>7 jellybeans</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Gold</td>
+                <td>320 - 639</td>
+                <td>2</td>
+                <td>8 jellybeans</td>
+                <td>Yes</td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            Along with shovels, there are four different water cans a toon can earn and use to garden.
+            To upgrade, a toon must earn skill points by watering a plants a specific amount of times.
+            The following chart will to use to know when a watering can will be upgraded and what characteristics
+            each can has:
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <th>Watering Can</th>
+                <th>Points to Upgrade</th>
+                <th>Days Lasted per Water</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Small</td>
+                <td>0</td>
+                <td>2 - 4 days</td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td>100</td>
+                <td>6 - 8 days</td>
+            </tr>
+            <tr>
+                <td>Large</td>
+                <td>200</td>
+                <td>10 - 12 days</td>
+            </tr>
+            <tr>
+                <td>Huge</td>
+                <td>400</td>
+                <td>14 - 16 days</td>
+            </tr>
+            </tbody>
+        </table>
+        <h2 id="trees">Gag Trees</h2>
+        <p>
+            In addition to planting flowers, toons can also plant gag trees with, well, gags!
+            Once fully grown, that gag will gain what is called an "organic bonus", which increases
+            gag damage by 10% (rounded up), or increases accuracy for lure gags. There are a total
+            of eight avaliable spots per toon to plant a gag tree. However, to have an organic bonus
+            on any level 2+ gag, the preceding gag in that track must also be planted and that lower
+            gag tree must not be removed.
+        </p>
+        <p>
+            Note, the higher the gag level planted, the longer it will take to grow the gag tree. A
+            good rule of thumb to use is multiply the gag level by 3 and that is the number of days it
+            will take the gag tree to fully grow.
+        </p>
+        <h2 id="statues">Statues</h2>
+        <p>
+            Stautes are a great way of making a toons garden look complete and fancy. What more could you
+            want! There are two types of statues: Disney character and special stautes. To plant a
+            statue, a toon must buy it in Clarabelle's Cattlelog and then approach the silver plot outside
+            the estate to set it up. At any level, a special statue can be planted. However,
+            the Disney themed statues have to be earned. Here is a quick guide to the Disney statues:
+            <ul>
+            <li style="font-weight:400;font-size:16px;">Donald Statue &#8594; have the 2 jellybean shovel</li>
+            <li style="font-weight:400;font-size:16px;">Mickey Statue &#8594; have the 4 jellybean shovel</li>
+            <li style="font-weight:400;font-size:16px;">Minnie Fountain &#8594; have the 6 jellybean shovel</li>
+            <li style="font-weight:400;font-size:16px;">Mickey Fountain &#8594; have the 8 jellybean shovel</li>
+            <li style="font-weight:400;font-size:16px;">Toon Statues &#8594; max out the shovel track</li>
+            </ul>
+        </p>
+        <div style="display:flex;justify-content:space-around;">
+            <a href="#plant">How to Plant Flowers</a>
+            <a href="#shovel">Shovels & Watering Cans</a>
+            <a href="#trees">Gag Trees</a>
+            <a href="#statues">Statues</a>
+        </div>
+        <hr>
+        <h2><a id="beanCombos">Flower Bean Combinations</a></h2>
+        <p>
+            Looking for flower bean combinations? Well you came to the right place! Below, feel free to look
+            through all the possible flower bean combinations that exist in Toontown Rewritten. You can
+            sort the list by bean cost or by flower species!
+        </p>
+    </div>
+</div>
+<div id="animate" class="list">
+    <div class="list-navigation">
+        <a href="#oneBean">One Bean Combos</a> | <a href="#twoBean">Two Bean Combos</a>
+            | <a href="#threeBean">Three Bean Combos</a> | <a href="#fourBean">Four Bean Combos</a> | <a href="#fiveBean">Five Bean Combos</a>
+            | <a href="#sixBean">Six Bean Combos</a> | <a href="#sevenBean">Seven Bean Combos</a> | <a href="#eightBean">Eight Bean Combos</a>
+    </div>
+    <div class="filtering">
+        <button name="num" class="active">Bean Cost</button>
+        <button name="type" onclick="window.location.href='GardeningSpecies#beanCombos'">Flower Species/Color</button>
+    </div>
+    <h2><a id="oneBean">One Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- One bean flower combinations -->
+    <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="one">Laff-o-dill</li>
+    <img src="~/images/flowers/laff-o-dil.gif">
+    <div class="bean-colors" style="color:green">green</div>
+    <hr>
+    <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="one">Dandy Pansy</li>
+    <img src="~/images/flowers/dandy-pansy.gif">
+    <div class="bean-colors" style="color:orange">orange</div>
+    <hr>
+    <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="one">What-in Carnation</li>
+    <img src="~/images/flowers/what-in-carnation.gif">
+    <div class="bean-colors" style="color:pink">pink</div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="one">School Daisy</li>
+    <img src="~/images/flowers/school-daisy.gif">
+    <div class="bean-colors" style="color:gold">yellow</div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="one">Lily-of-the-Alley</li>
+    <img src="~/images/flowers/lily-of-the-alley.gif">
+    <div class="bean-colors" style="color:darkturquoise">cyan</div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="twoBean">Two Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Two bean flower combinations -->
+    <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="two">Daffy Dill</li>
+    <img src="~/images/flowers/daffy-dill.gif">
+    <div class="bean-colors"><span style="color:green">green</span> + <span style="color:darkturquoise">cyan</span></div>
+    <hr>
+    <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="two">Chim Pansy</li>
+    <img src="~/images/flowers/chim-pansy.gif">
+    <div class="bean-colors"><span style="color:orange">orange</span> + <span style="color:darkturquoise">cyan</span></div>
+    <hr>
+    <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="two">Instant Carnation</li>
+    <img src="~/images/flowers/instant-carnation.gif">
+    <div class="bean-colors"><span style="color:pink">pink</span> + <span style="color:gold">yellow</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="two">Lazy Daisy</li>
+    <img src="~/images/flowers/lazy-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="two">Lily Pad</li>
+    <img src="~/images/flowers/lily-pad.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:green">green</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="threeBean">Three Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Three bean flower combinations -->
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="three">Midsummer Daisy</li>
+    <img src="~/images/flowers/midsummer-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:red">red</span> + <span style="color:green">green</span></div>
+    <hr>
+    <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="three">Potsen Pansy</li>
+    <img src="~/images/flowers/potsen-pansy.gif">
+    <div class="bean-colors"><span style="color:orange">orange</span> + <span style="color:red">red</span> + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="three">Hybrid Carnation</li>
+    <img src="~/images/flowers/hybrid-carnation.gif">
+    <div class="bean-colors"><span style="color:pink">pink</span> + <span style="color:red">red</span> + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="rose" data-bean-type="red" data-num-beans="three">Summer's Last Rose</li>
+    <img src="~/images/flowers/summers-last-rose.gif">
+    <div class="bean-colors"><span style="color:red">red</span> + <span style="color:red">red</span> + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="three">Tiger Lily</li>
+    <img src="~/images/flowers/tiger-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:orange">orange</span> + <span style="color:orange">orange</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="fourBean">Four Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Four bean flower combinations -->
+    <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="four">Giraff-o-dil</li>
+    <img src="~/images/flowers/giraff-o-dil.gif">
+    <div class="bean-colors"><span style="color:green">green</span> + <span style="color:pink">pink</span> + <span style="color:gold">yellow</span>
+        + <span style="color:gold">yellow</span></div>
+    <hr>
+    <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="four">Marzi Pansy</li>
+    <img src="~/images/flowers/marzi-pansy.gif">
+    <div class="bean-colors"><span style="color:orange">orange</span> + <span style="color:gold">yellow</span> + <span style="color:gold">yellow</span>
+        + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="rose" data-bean-type="red" data-num-beans="four">Corn Rose</li>
+    <img src="~/images/flowers/corn-rose.gif">
+    <div class="bean-colors"><span style="color:red">red</span> + <span style="color:gold">yellow</span> + <span style="color:orange">orange</span>
+        + <span style="color:gold">yellow</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="four">Freshasa Daisy</li>
+    <img src="~/images/flowers/freshasa-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:red">red</span> + <span style="color:darkturquoise">cyan</span>
+        + <span style="color:orange">orange</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="four">Livered Lily</li>
+    <img src="~/images/flowers/livered-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:orange">orange</span> + <span style="color:orange">orange</span>
+        + <span style="color:pink">pink</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="fiveBean">Five Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Five bean flower combinations -->
+    <li data-flower-type="daffodil" data-bean-type="green" data-num-beans="five">Time and half-o-dil</li>
+    <img src="~/images/flowers/time-and-half-o-dil.gif">
+    <div class="bean-colors"><span style="color:green">green</span> + <span style="color:pink">pink</span> + <span style="color:blue">blue</span>
+        + <span style="color:pink">pink</span> + <span style="color:pink">pink</span></div>
+    <hr>
+    <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="five">Side Carnation</li>
+    <img src="~/images/flowers/side-carnation.gif">
+    <div class="bean-colors"><span style="color:pink">pink</span> + <span style="color:red">red</span> + <span style="color:green">green</span>
+        + <span style="color:blue">blue</span> + <span style="color:red">red</span></div>
+    <hr>
+    <li data-flower-type="tulip" data-bean-type="violet" data-num-beans="five">Onelip</li>
+    <img src="~/images/flowers/onelip.gif">
+    <div class="bean-colors"><span style="color:blueviolet">violet</span> + <span style="color:red">red</span> + <span style="color:blue">blue</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="five">Whoopsie Daisy</li>
+    <img src="~/images/flowers/whoopsie-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:red">red</span> + <span style="color:orange">orange</span>
+        + <span style="color:orange">orange</span> + <span style="color:orange">orange</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="five">Chili Lily</li>
+    <img src="~/images/flowers/chili-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:red">red</span> + <span style="color:red">red</span>
+        + <span style="color:red">red</span> + <span style="color:red">red</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="sixBean">Six Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Six bean flower combinations -->
+    <li data-flower-type="rose" data-bean-type="red" data-num-beans="six" >Tinted Rose</li>
+    <img src="~/images/flowers/tinted-rose.gif">
+    <div class="bean-colors"><span style="color:red">red</span> + <span style="color:pink">pink</span> + <span style="color:orange">orange</span>
+        + <span style="color:red">red</span> + <span style="color:pink">pink</span> + <span style="color:orange">orange</span></div>
+    <hr>
+    <li data-flower-type="pansy" data-bean-type="orange" data-num-beans="six" >Smarty Pansy</li>
+    <img src="~/images/flowers/smarty-pansy.gif">
+    <div class="bean-colors"><span style="color:orange">orange</span> + <span style="color:pink">pink</span> + <span style="color:pink">pink</span>
+        + <span style="color:orange">orange</span> + <span style="color:blue">blue</span> + <span style="color:pink">pink</span></div>
+    <hr>
+    <li data-flower-type="tulip" data-bean-type="violet" data-num-beans="six" >Twolip</li>
+    <img src="~/images/flowers/twolip.gif">
+    <div class="bean-colors"><span style="color:blueviolet">violet</span> + <span style="color:red">red</span> + <span style="color:red">red</span>
+        + <span style="color:red">red</span> + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="six" >Upsy Daisy</li>
+    <img src="~/images/flowers/upsy-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:blue">blue</span> + <span style="color:darkturquoise">cyan</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:blue">blue</span> + <span style="color:blue">blue</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="six" >Silly Lily</li>
+    <img src="~/images/flowers/silly-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:red">red</span> + <span style="color:blueviolet">violet</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span> + <span style="color:blueviolet">violet</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="sevenBean">Seven Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Seven bean flower combinations -->
+    <li data-flower-type="rose" data-bean-type="red" data-num-beans="seven" >Stinking Rose</li>
+    <img src="~/images/flowers/stinking-rose.gif">
+    <div class="bean-colors"><span style="color:red">red</span> + <span style="color:darkturquoise">cyan</span> + <span style="color:orange">orange</span>
+        + <span style="color:pink">pink</span> + <span style="color:blueviolet">violet</span> + <span style="color:darkturquoise">cyan</span>
+        + <span style="color:darkturquoise">cyan</span></div>
+    <hr>
+    <li data-flower-type="carnation" data-bean-type="pink" data-num-beans="seven" >Model Carnation</li>
+    <img src="~/images/flowers/model-carnation.gif">
+    <div class="bean-colors"><span style="color:pink">pink</span> + <span style="color:green">green</span> + <span style="color:green">green</span>
+        + <span style="color:green">green</span> + <span style="color:green">green</span> + <span style="color:gold">yellow</span>
+        + <span style="color:green">green</span></div>
+    <hr>
+    <li data-flower-type="petunia" data-bean-type="blue" data-num-beans="seven" >Car Petunia</li>
+    <img src="~/images/flowers/car-petunia.gif">
+    <div class="bean-colors"><span style="color:blue">blue</span> + <span style="color:blueviolet">violet</span> + <span style="color:blue">blue</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:darkturquoise">cyan</span> + <span style="color:blue">blue</span>
+        + <span style="color:blue">blue</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="seven" >Crazy Daisy</li>
+    <img src="~/images/flowers/crazy-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:green">green</span> + <span style="color:red">red</span>
+        + <span style="color:orange">orange</span> + <span style="color:green">green</span> + <span style="color:green">green</span>
+        + <span style="color:green">green</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="seven" >Indubitab Lily</li>
+    <img src="~/images/flowers/indubitab-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:blueviolet">violet</span> + <span style="color:darkturquoise">cyan</span>
+        + <span style="color:blue">blue</span> + <span style="color:darkturquoise">cyan</span> + <span style="color:blue">blue</span>
+        + <span style="color:blue">blue</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+    <h2><a id="eightBean">Eight Bean Flower Combinations</a></h2>
+    <ul>
+    <!-- Eight bean flower combinations -->
+    <li data-flower-type="rose" data-bean-type="red" data-num-beans="eight" >Istilla Rose</li>
+    <img src="~/images/flowers/istilla-rose.gif">
+    <div class="bean-colors"><span style="color:red">red</span> + <span style="color:blue">blue</span> + <span style="color:blueviolet">violet</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:blue">blue</span> + <span style="color:blue">blue</span>
+        + <span style="color:pink">pink</span> + <span style="color:blue">blue</span></div>
+    <hr>
+    <li data-flower-type="tulip" data-bean-type="violet" data-num-beans="eight" >Threelip</li>
+    <img src="~/images/flowers/threelip.gif">
+    <div class="bean-colors"><span style="color:blueviolet">violet</span> + <span style="color:gold">yellow</span> + <span style="color:gold">yellow</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:gold">yellow</span> + <span style="color:orange">orange</span>
+        + <span style="color:blueviolet">violet</span> + <span style="color:gold">yellow</span></div>
+    <hr>
+    <li data-flower-type="petunia" data-bean-type="blue" data-num-beans="eight" >Platoonia</li>
+    <img src="~/images/flowers/platoonia.gif">
+    <div class="bean-colors"><span style="color:blue">blue</span> + <span style="color:pink">pink</span> + <span style="color:pink">pink</span>
+        + <span style="color:blue">blue</span> + <span style="color:red">red</span> + <span style="color:orange">orange</span>
+        + <span style="color:gold">yellow</span> + <span style="color:gold">yellow</span></div>
+    <hr>
+    <li data-flower-type="daisy" data-bean-type="yellow" data-num-beans="eight" >Hazy Daisy</li>
+    <img src="~/images/flowers/hazy-daisy.gif">
+    <div class="bean-colors"><span style="color:gold">yellow</span> + <span style="color:blue">blue</span> + <span style="color:blueviolet">violet</span>
+        + <span style="color:darkturquoise">cyan</span> + <span style="color:blueviolet">violet</span> + <span style="color:red">red</span>
+        + <span style="color:orange">orange</span> + <span style="color:blueviolet">violet</span></div>
+    <hr>
+    <li data-flower-type="lily" data-bean-type="cyan" data-num-beans="eight" >Dilly Lily</li>
+    <img src="~/images/flowers/dilly-lily.gif">
+    <div class="bean-colors"><span style="color:darkturquoise">cyan</span> + <span style="color:blue">blue</span> + <span style="color:gold">yellow</span>
+        + <span style="color:gold">yellow</span> + <span style="color:darkturquoise">cyan</span> + <span style="color:blue">blue</span>
+        + <span style="color:gold">yellow</span> + <span style="color:gold">yellow</span></div>
+    <a href="#gardeningTop">Back to Top</a>
+    </ul>
+</div>

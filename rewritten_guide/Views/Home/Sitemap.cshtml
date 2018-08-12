@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Site Map";
+}
+
+<div class="panel">
+    <div class="panel-content">
+        <h1>Site Map</h1>
+        <ul>
+            <li><asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li>Activities</li>
+            <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Gardening">Gardening by Bean Cost</a></li>
+            <ul>
+                <li><a asp-area="" asp-controller="Home" asp-action="GardeningSpecies">Gardening by Flower Species</a></li>
+            </ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Fishing">Fishing by Fish Type</a></li>
+            <ul>
+                <li><a asp-area="" asp-controller="Home" asp-action="FishingRods">Fishing by Rod</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="FishingPonds">Fishing by Pond</a></li>
+            </ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Racing">Racing</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Golfing">Golfing</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Doodles">Doodles</a></li>
+            </ul>
+            <li>Cogs</li>
+            <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Sellbot">Sellbot</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Cashbot">Cashbot</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Lawbot">Lawbot</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Bossbot">Bossbot</a></li>
+            </ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Toontips">Toon Tips</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact Spike</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Faq">FAQ</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Sitemap">Site Map</a></li>
+        </ul>
+    </div>
+</div>
