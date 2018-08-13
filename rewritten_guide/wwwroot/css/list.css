@@ -56,13 +56,6 @@ body.fade {
 	margin: -25px 0 2.5em 0;
 }
 
-.list ul a {
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	float: right;
-	padding: 23px 5px 15px 5px;
-}
-
 .list ul .bean-colors {
 	padding: 10px 5px 0 5px;
 	font-family: 'Roboto', sans-serif;

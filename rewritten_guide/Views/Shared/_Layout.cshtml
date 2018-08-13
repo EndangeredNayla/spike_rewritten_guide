@@ -17,6 +17,7 @@
     </environment>
 </head>
 <body id="main">
+    <div id="return-top"></div>
     <nav>
       <a asp-area="" asp-controller="Home" asp-action="Index">
         <img src="~/images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
@@ -45,6 +46,7 @@
       <a asp-area="" asp-controller="Home" asp-action="Toontips">Toon Tips</a>
       <a asp-area="" asp-controller="Home" asp-action="About">About</a>
     </nav>
+    <div class="backtotop-link" id="backtotop-link"><a href="#return-top">Back to Top</a></div>
     <div class="container body-content">
         @RenderBody()
         <div class="footer-panel">
@@ -63,6 +65,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="~/js/scroll.js" asp-append-version="true"></script>
     <script src="~/js/shrink-nav.js" asp-append-version="true"></script>
+    <script src="~/js/back-to-top.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
 </body>

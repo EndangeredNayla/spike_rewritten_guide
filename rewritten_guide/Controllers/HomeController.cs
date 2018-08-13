@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using rewritten_guide.Models;
+using System.Net.Mail;
 
 namespace rewritten_guide.Controllers
 {
@@ -20,8 +21,38 @@ namespace rewritten_guide.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contact(ContactModel cm)
         {
+            if(ModelState.IsValid)
+            {
+                try
+                {
+                    MailMessage msz = new MailMessage();
+                    msz.From = new MailAddress(cm.Email);
+                    msz.To.Add("spikes.rewritten.guide@gmail.com");
+                    msz.Subject = $"New Inquiry from {cm.Name} at {cm.Email}";
+                    msz.Body = cm.Message;
+                    SmtpClient smtp = new SmtpClient();
+
+                    smtp.Host = "smtp.gmail.com";
+
+                    smtp.Port = 587;
+
+                    smtp.Credentials = new System.Net.NetworkCredential("spikes.rewritten.guide@gmail.com", "spike0313");
+
+                    smtp.EnableSsl = true;
+
+                    smtp.Send(msz);
+
+                    ModelState.Clear();
+                    ViewBag.Message = "Thank for for you question! Spike will get back to you as soon as possible!";
+                }
+                catch(Exception ex)
+                {
+                    ModelState.Clear();
+                    ViewBag.Message = $"Sorry there is a problem {ex.Message}";
+                }
+            }
             return View();
         }
 
