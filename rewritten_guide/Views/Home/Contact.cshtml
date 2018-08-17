@@ -20,7 +20,7 @@
                     </div>
 
                     <div class="contact-input">
-                        <label asp-for="Toon">Toon Species</label>
+                        <label asp-for="Toon">Toon Species<span style="color:red;"> * </span></label>
                         <select asp-for="Toon">
                             <option value="">Select a toon species!</option>
                             <option value="cat">Cat</option>
@@ -49,7 +49,7 @@
                         <textarea asp-for="Message" placeholder="Type your message here!" style="height:200px"></textarea>
                         <span class="contact-validation" asp-validation-for="Message"></span>
                     </div>
-
+                    
                     <button type="submit">Send</button>
                 </form>
             </div>

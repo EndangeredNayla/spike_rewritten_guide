@@ -47,10 +47,10 @@ namespace rewritten_guide.Controllers
                     ModelState.Clear();
                     ViewBag.Message = "Thank for for you question! Spike will get back to you as soon as possible!";
                 }
-                catch(Exception ex)
+                catch(Exception)
                 {
                     ModelState.Clear();
-                    ViewBag.Message = $"Sorry there is a problem {ex.Message}";
+                    ViewBag.Message = $"Sorry there was a problem processing your message. Try again!";
                 }
             }
             return View();
