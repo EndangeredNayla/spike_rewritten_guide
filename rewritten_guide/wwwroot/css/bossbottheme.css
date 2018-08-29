@@ -15,9 +15,9 @@ body {
 	min-height: 100%;
 	padding-bottom: 4rem;
 	padding-top: 6rem;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #cae6f4;
-	background: url('../images/chipndales-background.jpg');
+	background: url('../images/cogs/bossbots/Clubhouselobby.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
 }
 
 body h1, h2, h3 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Knewave', cursive;
 	color: #333;
 	font-weight: 400;
 }
@@ -36,7 +36,7 @@ body p {
 }
 
 body a {
-	color: red;
+	color: #613630;
 }
 
 body h1 a, h2 a {
@@ -93,7 +93,7 @@ nav {
 	overflow: hidden;
 	padding: 5px 15px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border-bottom: 1px solid #6294d655;
+	border-bottom: 1px solid #61363055;
 	transition: all .4s ease-in-out;
 	overflow: visible;
 	z-index: 1;
@@ -110,18 +110,18 @@ nav a {
 	cursor: pointer;
 	float: left;
 	color: white;
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Knewave', cursive;
 	font-weight: 400;
 	text-align: center;
-	padding: 30px 40px;
+	padding: 21px 40px 20px 40px;
 	text-decoration: none;
-	text-shadow: 0 0 13px #285b9f;
+	text-shadow: 0 0 13px #ff0000;
 	font-size: 25px;
 	transition: text-shadow .15s linear;
 }
 
 .shrink a {
-	padding: 9px 30px;
+	padding: 4px 30px 5px 30px;
 	font-size: 20px;
 }
 
@@ -136,8 +136,8 @@ nav img {
 
 .shrink img {
     margin: -9px -50px;
-	padding: 0 75px 0 12px;
-	height: 45px;
+    padding: 2px 75px 0 12px;
+    height: 50px;
 }
 
 .dropdown {
@@ -147,14 +147,14 @@ nav img {
 
 .dropdown .dropbtn {
 	cursor: pointer;
-	font-family: 'Luckiest Guy', cursive;
-	text-shadow: 0 0 13px #285b9f;
+	font-family: 'Knewave', cursive;
+	text-shadow: 0 0 13px #ff0000;
 	font-weight: 400;
 	font-size: 25px;
 	border: none;
 	outline: none;
 	color: white;
-	padding: 30px 37px 30px 40px;
+	padding: 21px 37px 20px 40px;
 	margin: 0;
 	transition: text-shadow .15s linear;
 	background-color: inherit;
@@ -162,44 +162,44 @@ nav img {
 
 .shrink .dropdown .dropbtn {
 	font-size: 20px;
-	padding: 9px 27px 9px 30px;
+	padding: 4px 27px 5px 30px;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-	text-shadow: 0 0 13px red;
+	text-shadow: 0 0 13px #613630;
 }
 
 nav .dropdown-content {
 	display: none;
 	position: absolute;
 	width: auto;
-	margin: -30px 0 0 -30px;
-	padding: 0 60px 50px 27px;
-	background-image: url('../images/cartoon-cloud.png');
-	background-repeat: no-repeat;
-	background-size: 100% 150px;
+	margin: -15px 0px 0 -25px;
+    padding: 0 60px 75px 35px;
+    background-image: url('../images/cogs/bossbots/red_oil.png');
+    background-repeat: no-repeat;
+    background-size: 100% 130px;
 	z-index: 1;
 }
 
 .shrink .dropdown-content {
-	margin: -11px 0 0 -20px;
-	padding: 0 55px 45px 24px;
-	background-size: 100% 98px;
+	margin: -7px 0 0 -20px;
+    padding: 12px 55px 45px 27px;
+    background-size: 100% 90px;
 }
 
 nav .dropdown-content a {
 	color: white;
-	padding: 67px 30px 30px 30px;
-	font-family: 'Luckiest Guy', cursive;
+	padding: 42px 20px 20px 20px;
+	font-family: 'Knewave', cursive;
 	font-weight: 400;
 	text-decoration: none;
-    text-shadow: 0 0 10px red;
+    text-shadow: 0 0 10px #613630;
     text-align: center;
 	font-size: 20px;
 }
 
 .shrink .dropdown-content a {
-	padding: 40px 17px 17px 17px;
+	padding: 12px;
 	font-size: 17px;
 }
 
@@ -229,13 +229,13 @@ nav .dropdown:hover .dropdown-content {
 	padding: 10px 12px;
 	margin: 35px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border: 1px solid #6294d655;
-	border-radius: 5px;
+	border: 1px solid #61363055;
+	border-radius: 3px;
 	transition: .5s;
 }
 
 .backtotop-link a {
-	color: #6294d6;
+	color: #ff0000;
 	font-size: 14px;
 }
 
@@ -243,16 +243,16 @@ nav .dropdown:hover .dropdown-content {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
-	border-radius: 1em;
+	background-color: #ffffff99;
+	border-radius: 5px;
 	width: 60em;
 	margin-top: 6em;
 	margin-bottom: 2em;
-	box-shadow: 1px 1px 8px 1px silver;
+	box-shadow: 0 0 25px 20px #ffffff99;
 }
 
 .panel-content {
-	padding: 5px 30px 17px 30px;
+	padding: 1px 25px 12px 25px;
 }
 
 .footer-panel {
@@ -262,13 +262,13 @@ nav .dropdown:hover .dropdown-content {
 	left: 0;
 	width: 100%;
 	height: 27px;
-	color: #6294d6;
+	color: #ff0000;
 	display: flex;
 	justify-content:space-between;
 	margin-top: 7em;
 	padding: 5px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border-top: 1px solid #6294d655;
+	border-top: 1px solid #61363055;
 	font-size: 13px;
 	vertical-align: top;
 }
@@ -280,7 +280,7 @@ nav .dropdown:hover .dropdown-content {
 }
 
 .footer-panel a:hover {
-	text-shadow: 0 0 7px red;
+	text-shadow: 0 0 7px #613630;
 }
 
 ul li {
@@ -296,23 +296,22 @@ ul li {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #cae6f465;
+    background: #946d6d65;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #6294d665;
+    background: #88202065;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3469af65;
+    background: #ff000065;
 }
 
 /** list css */
 .list h2 {
 	text-align: center;
-	margin-bottom: -15px;
 	padding-top: 20px;
 }
 
@@ -325,12 +324,12 @@ ul li {
 	margin-left: auto;
 	margin-right: auto;
 	list-style-type: none;
-	background-color: rgba(255, 255, 255);
-	font-family: 'Luckiest Guy', cursive;
+	background-color: #ffffff99;
+	font-family: 'Knewave', cursive;
 	font-weight: 400;
 	font-size: 18px;
-	border-radius: 1em;
-	box-shadow: 1px 1px 8px 1px silver;
+	border-radius: 5px;
+	box-shadow: 0 0 25px 20px #ffffff99;
 	width: 30em;
 	height: auto;
 	text-align: center;
@@ -340,7 +339,7 @@ ul li {
 
 .list ul table tr td {
 	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .list ul table tr th {
@@ -352,15 +351,16 @@ ul li {
 }
 
 .list-navigation {
-	color: red;
+	color: #613630;
 	font-size: 13px;
 	text-align: center;
-	margin: -25px 0 2.5em 0;
+	margin-bottom: 2.5em;
 }
 
 .list ul .bean-colors {
 	padding: 10px 5px 0 5px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0 0 10px black;
 }
 
 .list ul img {
@@ -374,12 +374,12 @@ ul li {
 }
 
 .list .filtering button {
-	border: 1px solid #3069ba;
+	border: 1px solid #ff0000;
 	box-sizing: border-box;
 	padding: 7px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: transparent;
-	color: #3069ba;
+	color: #ff0000;
 	font-size: 17px;
 	cursor: pointer;
 }
@@ -389,15 +389,15 @@ ul li {
 }
 
 .list .filtering button:first-child {
-	border-radius: 5px 0 0 5px;
+	border-radius: 3px 0 0 3px;
 }
 
 .list .filtering button:last-child {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .list .filtering button:hover, .list .filtering .active {
-	background-color: #3069ba50;
+	background-color: #ff000050;
 }
 
 .list-fish {
@@ -406,8 +406,8 @@ ul li {
 }
 
 .theme-select {
-	border: 1px solid #6294d655 !important;
-	border-radius: 5px !important;
+	border: 1px solid #64264755 !important;
+	border-radius: 3px !important;
     font-family: 'Roboto', sans-serif !important;
 	color: grey !important;
 	font-size: 11px;

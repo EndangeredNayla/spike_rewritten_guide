@@ -1,4 +1,4 @@
-input, select, textarea {
+input, select.toon-input, textarea {
 	width: 100%;
 	padding: 8px;
 	border: 1px solid #ccc;

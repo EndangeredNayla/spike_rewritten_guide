@@ -4,11 +4,3 @@
     position: absolute;
     margin: -5px 0 0 5px;
 }
-
-body {
-    background: url('../images/cogs/14-4-20_doomsday.jpg');
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	overflow-x: hidden;
-}

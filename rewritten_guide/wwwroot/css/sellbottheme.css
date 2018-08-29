@@ -17,7 +17,7 @@ body {
 	padding-top: 6rem;
 	font-family: 'Roboto', sans-serif;
 	background-color: #cae6f4;
-	background: url('../images/chipndales-background.jpg');
+	background: url('../images/cogs/sellbots/SellbotHQ2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
 }
 
 body h1, h2, h3 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
 	color: #333;
 	font-weight: 400;
 }
@@ -93,7 +93,7 @@ nav {
 	overflow: hidden;
 	padding: 5px 15px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border-bottom: 1px solid #6294d655;
+	border-bottom: 1px solid #64264755;
 	transition: all .4s ease-in-out;
 	overflow: visible;
 	z-index: 1;
@@ -110,18 +110,18 @@ nav a {
 	cursor: pointer;
 	float: left;
 	color: white;
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: 400;
 	text-align: center;
-	padding: 30px 40px;
+	padding: 25px 40px;
 	text-decoration: none;
-	text-shadow: 0 0 13px #285b9f;
+	text-shadow: 0 0 13px #561630;
 	font-size: 25px;
 	transition: text-shadow .15s linear;
 }
 
 .shrink a {
-	padding: 9px 30px;
+	padding: 6px 30px;
 	font-size: 20px;
 }
 
@@ -147,14 +147,14 @@ nav img {
 
 .dropdown .dropbtn {
 	cursor: pointer;
-	font-family: 'Luckiest Guy', cursive;
-	text-shadow: 0 0 13px #285b9f;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0 0 13px #561630;
 	font-weight: 400;
 	font-size: 25px;
 	border: none;
 	outline: none;
 	color: white;
-	padding: 30px 37px 30px 40px;
+	padding: 25px 37px 25px 40px;
 	margin: 0;
 	transition: text-shadow .15s linear;
 	background-color: inherit;
@@ -162,7 +162,7 @@ nav img {
 
 .shrink .dropdown .dropbtn {
 	font-size: 20px;
-	padding: 9px 27px 9px 30px;
+	padding: 6px 27px 6px 30px;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
@@ -173,24 +173,25 @@ nav .dropdown-content {
 	display: none;
 	position: absolute;
 	width: auto;
-	margin: -30px 0 0 -30px;
-	padding: 0 60px 50px 27px;
-	background-image: url('../images/cartoon-cloud.png');
-	background-repeat: no-repeat;
-	background-size: 100% 150px;
+	margin-top: -15px;
+	padding: 0 5px;
+	background: url('../images/cogs/sellbots/grid.png');
+	background-size: 130px 145px !important; 
+	background-repeat: repeat;
+	border: 15px solid transparent;
+	border-image: url('../images/cogs/metal_border.png') 30;
 	z-index: 1;
+	box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
 }
 
 .shrink .dropdown-content {
-	margin: -11px 0 0 -20px;
-	padding: 0 55px 45px 24px;
-	background-size: 100% 98px;
+	margin-top: -3px;
 }
 
 nav .dropdown-content a {
 	color: white;
-	padding: 67px 30px 30px 30px;
-	font-family: 'Luckiest Guy', cursive;
+	padding: 20px;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: 400;
 	text-decoration: none;
     text-shadow: 0 0 10px red;
@@ -199,7 +200,7 @@ nav .dropdown-content a {
 }
 
 .shrink .dropdown-content a {
-	padding: 40px 17px 17px 17px;
+	padding: 12px;
 	font-size: 17px;
 }
 
@@ -229,13 +230,13 @@ nav .dropdown:hover .dropdown-content {
 	padding: 10px 12px;
 	margin: 35px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border: 1px solid #6294d655;
+	border: 1px solid #64264755;
 	border-radius: 3px;
 	transition: .5s;
 }
 
 .backtotop-link a {
-	color: #6294d6;
+	color: #642647;
 	font-size: 14px;
 }
 
@@ -244,11 +245,12 @@ nav .dropdown:hover .dropdown-content {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	border-radius: 1em;
+	border: 15px solid transparent;
+	border-image: url('../images/cogs/metal_border.png') 30;
 	width: 60em;
 	margin-top: 6em;
 	margin-bottom: 2em;
-	box-shadow: 1px 1px 8px 1px silver;
+	box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
 }
 
 .panel-content {
@@ -261,14 +263,16 @@ nav .dropdown:hover .dropdown-content {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	color: #6294d6;
+	height: 27px;
+	color: #642647;
 	display: flex;
 	justify-content:space-between;
 	margin-top: 7em;
 	padding: 5px;
 	background-color: rgba(255, 255, 255, 0.45);
-	border-top: 1px solid #6294d655;
+	border-top: 1px solid #64264755;
 	font-size: 13px;
+	vertical-align: top;
 }
 
 .footer-panel a {
@@ -294,17 +298,17 @@ ul li {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #cae6f465;
+    background: #ca9cb565;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #6294d665;
+    background: #64264765;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3469af65;
+    background: #57073165;
 }
 
 /** list css */
@@ -324,11 +328,12 @@ ul li {
 	margin-right: auto;
 	list-style-type: none;
 	background-color: rgba(255, 255, 255);
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: 400;
 	font-size: 18px;
-	border-radius: 1em;
-	box-shadow: 1px 1px 8px 1px silver;
+	border: 15px solid transparent;
+	border-image: url('../images/cogs/metal_border.png') 30;
+	box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
 	width: 30em;
 	height: auto;
 	text-align: center;
@@ -372,12 +377,12 @@ ul li {
 }
 
 .list .filtering button {
-	border: 1px solid #3069ba;
+	border: 1px solid #642647;
 	box-sizing: border-box;
 	padding: 7px;
 	font-family: 'Roboto', sans-serif;
 	background-color: transparent;
-	color: #3069ba;
+	color: #642647;
 	font-size: 17px;
 	cursor: pointer;
 }
@@ -387,18 +392,26 @@ ul li {
 }
 
 .list .filtering button:first-child {
-	border-radius: 5px 0 0 5px;
+	border-radius: 3px 0 0 3px;
 }
 
 .list .filtering button:last-child {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .list .filtering button:hover, .list .filtering .active {
-	background-color: #3069ba50;
+	background-color: #64264750;
 }
 
 .list-fish {
 	width: 125px;
 	height: auto;
+}
+
+.theme-select {
+	border: 1px solid #64264755 !important;
+	border-radius: 3px !important;
+    font-family: 'Roboto', sans-serif !important;
+	color: grey !important;
+	font-size: 11px;
 }

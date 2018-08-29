@@ -6,6 +6,10 @@
     <title>@ViewData["Title"] | Spike's Rewritten Guide</title>
     <link rel="shortcut icon" type="image/png" href="~/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Raleway" rel="stylesheet">
     <link id="pagestyle" rel="stylesheet" type="text/css" href="~/css/theme.css" />
     <link rel="stylesheet" type="text/css" href="~/css/animation.css" asp-append-version="true" />
 </head>
@@ -44,13 +48,16 @@
         @RenderBody()
         <div class="footer-panel">
             <div>
+                <select class="theme-select" id="selectBox" onchange="selectThemeChange()">
+                    <option value='/css/theme.css'>Chip N' Dales Theme</option>
+                    <option value='/css/sellbottheme.css'>Sellbot Theme</option>
+                    <option value='/css/cashbottheme.css'>Cashbot Theme</option>
+                    <option value='/css/lawbottheme.css'>Lawbot Theme</option>
+                    <option value='/css/bossbottheme.css'>Bossbot Theme</option>
+                </select>
                 <a asp-area="" asp-controller="Home" asp-action="Contact">Contact Spike</a>
                 <a asp-area="" asp-controller="Home" asp-action="Faq">FAQ</a>
                 <a asp-area="" asp-controller="Home" asp-action="Sitemap">Site Map</a>
-                <select id="selectBox" onchange="selectThemeChange()">
-                    <option value='/css/theme.css'>Chip N' Dales Theme</option>
-                    <option value='/css/sellbottheme.css'>Sellbot Theme</option>
-                </select>
             </div>
             <div>Spike's Rewritten Guide &copy; 2018</div>
         </div>
