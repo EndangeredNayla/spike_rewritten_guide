@@ -38,7 +38,7 @@ namespace rewritten_guide.Controllers
 
                     smtp.Port = 587;
 
-                    smtp.Credentials = new System.Net.NetworkCredential("spikes.rewritten.guide@gmail.com", "spike0313");
+                    smtp.Credentials = new System.Net.NetworkCredential("spikes.rewritten.guide@gmail.com", "#spike0313");
 
                     smtp.EnableSsl = true;
 

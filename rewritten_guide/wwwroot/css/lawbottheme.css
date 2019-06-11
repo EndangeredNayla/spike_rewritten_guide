@@ -410,3 +410,9 @@ ul li {
 	color: grey !important;
 	font-size: 11px;
 }
+
+.book-tab {
+	margin-bottom: -6px;
+	width: auto;
+	height: 25px;
+}
