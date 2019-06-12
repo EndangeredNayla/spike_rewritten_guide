@@ -247,7 +247,7 @@ nav .dropdown:hover .dropdown-content {
 	width: 60em;
 	margin-top: 6em;
 	margin-bottom: 2em;
-	box-shadow: 0 0 25px 20px #ffffff99;
+	box-shadow: 0 0 30px 25px #ffffff99;
 }
 
 .panel-content {
@@ -405,7 +405,7 @@ ul li {
 }
 
 .theme-select {
-	border: 1px solid #64264755 !important;
+	border: 1px solid #ff000055 !important;
 	border-radius: 3px !important;
     font-family: 'Roboto', sans-serif !important;
 	color: grey !important;
@@ -416,4 +416,11 @@ ul li {
 	margin-bottom: -6px;
 	width: auto;
 	height: 25px;
+}
+
+.disclaimer {
+	text-align: center;
+	color: #ff000090;
+	font-size: 12px;
+	width: 100%;
 }

@@ -416,3 +416,10 @@ ul li {
 	width: auto;
 	height: 25px;
 }
+
+.disclaimer {
+	text-align: center;
+	color: #31376390;
+	font-size: 12px;
+	width: 100%;
+}

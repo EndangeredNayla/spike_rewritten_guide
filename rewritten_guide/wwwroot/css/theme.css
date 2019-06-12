@@ -417,3 +417,10 @@ ul li {
 	width: auto;
 	height: 25px;
 }
+
+.disclaimer {
+	text-align: center;
+	color: #6294d690;
+	font-size: 12px;
+	width: 100%;
+}

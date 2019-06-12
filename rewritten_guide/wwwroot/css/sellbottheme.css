@@ -420,3 +420,10 @@ ul li {
 	width: auto;
 	height: 25px;
 }
+
+.disclaimer {
+	text-align: center;
+	color: #64264790;
+	font-size: 12px;
+	width: 100%;
+}
