@@ -21,7 +21,8 @@
             <a href="#list">List of Cashbots</a>
             <a href="#where">Where to Find Cashbots</a>
             <a href="#hq">Cashbot HQ</a>
-            <a href="#suit">Building a Cashbot Suit Disguise</a>
+            <a href="#suit">Building a Cashbot Disguise</a>
+            <a href="#unite">Unites</a>
         </div>
         <h2 id="list">List of Cashbots</h2>
         <table>
@@ -164,12 +165,12 @@
             three elevators that lead to three different types of cog mints. Additionally, on the opposite side
             of the headquarters is the Cashbot vault. More detail on these areas will be explained below.
         </p>
-        <!-- cbhq pic -->
+        <img style="display:block;margin:auto;height:320px;width:auto;border-radius:1em;" src="~/images/cogs/cashbots/cbhq.png" />
         <p>
-            Caution! When navigating the train yard in the headquarters, watch out for trains when crossing 
+            Caution! When navigating the Trainyard, the main area in the headquarters, watch out for trains when crossing 
             the tracks, they will run you over! This will deduct 10 laff points. Pesky cogs! 
         </p>
-        <h3>Cashbot Mints</h3>
+        <h3 id="mint">Cashbot Mints</h3>
         <p>
             Cashbot Mints are facilities of the headquarters. There are three types of mints: Coin Mint, Dollar
             Mint, and Bullion Mint. The shortest mint is the Coin Mint while the longest mint is the Bullion Mint.
@@ -222,14 +223,14 @@
         <h4>Mint Floor Plans</h4>
         <p>
             Everytime a toon goes into a mint, most likely the floor plan will be different. It is not always the same
-            layout like a Sellbot Factory is. There are 20 different types of floor plans per mint, each consisting of a different
+            layout like a Sellbot Factory. There are 20 different types of floor plans per mint, each consisting of a different
             number of cogs and obstacles. In order to get to the next room, toons must overcome these obstacles or defeat the cogs 
             that are in the way.
         </p>
         <table>
             <thead>
                 <tr>
-                    <th>Floor / Obstacle</th>
+                    <th style="width:25%;">Room / Obstacle</th>
                     <th>Description</th>
                 </tr>
             </thead>
@@ -237,12 +238,83 @@
                 <tr>
                     <td>Paint Mixer Room</td>
                     <td>
-                        Toons must jump onto three separate moving platforms to across, without falling into the paint. Falling
+                        Toons must jump onto three separate moving platforms to cross, without falling into the paint. Falling
                         into the paint will deduct 8 laff points.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lava Room</td>
+                    <td>
+                        Toons must jump across three platforms floating on the lava surface. These platforms sink once a toon jumps
+                        on them. Falling into the lava will deduct 8 laff points.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Spinning Gears</td>
+                    <td>
+                        Toons must hop on a tower of rotating gears to climb over the wall blocking the hallway to the next room.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Stompers</td>
+                    <td>
+                        There are stomper rooms scattered around the mint. Toons must run under them before getting crushed. Getting 
+                        stomped will deduct 8 laff points.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giant Stomper</td>
+                    <td>
+                        The giant stomper covers the entire room. Toons must avoid this stomper by jumping into the holes in the ground. 
+                        Tip: there are restock barrels in this room!
+                    </td>
+                </tr>
+                <tr>
+                    <td>Diamond Room</td>
+                    <td>
+                        Sometimes called the Doom Room, this room is in the shape of a diamond. There are 4 groups of cogs to battle, in 
+                        each corner of the diamond. One battle can be skipped, but typically toons want to complete all four battles.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ledge Room</td>
+                    <td>
+                        This room consists of 4 cog battles. The second battle can be skipped by running to the left into the shortcut 
+                        instead of entering that battle. The final battle is up a small set of stairs that leads to the top of a ledge.
+                        Tip: there is a restock barrel and a healing barrel straight ahead after the first battle in this room.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Goon Rooms</td>
+                    <td>
+                        Goons are a commonplace in cog mints. Empty rooms will be filled with goons and toons must run through avoiding 
+                        them. Toons can stomp on a goons head to shut them down for a short period of time. Getting caught in a goons' 
+                        light will deduct 10 laff points.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skelecog Rooms</td>
+                    <td>
+                        There are two square shaped rooms that only consist of four level 11 skelecogs. Toons must battle these cogs 
+                        in order to proceed through the mint.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Time Obstacle Course</td>
+                    <td>
+                        Toons have 120 seconds to complete an obstacle course in the mint. This course involves jumping on a giant 
+                        spinning gear, jumping across small ledges, and avoiding a stomper. If a toon does not successfully complete
+                        this obstacle, they will be deducted 20 laff and given an easy way to reach the end.
                     </td>
                 </tr>
             </tbody>
         </table>
+        <p>
+            Wondering what types of floor plans you might encounter? Refer to the following links: 
+            <a href="https://toontown.fandom.com/wiki/Coin_Mint" target="_blank">Coin Mint</a>, 
+            <a href="https://toontown.fandom.com/wiki/Dollar_Mint" target="_blank">Dollar Mint</a>, and 
+            <a href="https://toontown.fandom.com/wiki/Bullion_Mint" target="_blank">Bullion Mint</a>.
+        </p>
         <h3>Chief Financial Officer</h3>
         <p>
             The Chief Financial Officer, with the nickname C.F.O., is the overseer of the Cashbots. He resides within 
@@ -259,18 +331,66 @@
             Be careful, the goons light deals more damage as the C.F.O. takes more damage. Upon defeat, toons will celebrate and 
             be rewared with a speedchat unite!
         </p>
-        <p>
-            Here's a tip: do NOT throw a safe at the C.F.O. unless he is stunned! That will provide him with a helmet that blocks all attacks.
-        </p>
-        <!-- cashbot vault pic -->
+        <img style="display:block;margin:auto;height:220px;width:auto;border-radius:1em;" src="~/images/cogs/cashbots/cbhq_vault.png" />
         <p>
             ~C.F.O. walkthrough video soon to come!~
+        </p>
+        <h2 id="suit">Building a Cashbot Disguise</h2>
+        <p>
+            To fight the C.F.O., a toon must build a Cashbot suit disguise and be ready for a promotion. There are 12 total
+            cog suit parts to collect. To get all of these parts, a toon must complete toontasks in Donald's Dreamland. There 
+            are a total 12 required toontasks, some involving specific toon NPCs and some involving randomized tasks. 
+        </p>
+        <ol>
+            <li>Nat's Tasks (Reward: Upper Left Leg)</li>
+            <li>Teddy Blair's Tasks (Reward: Lower Left Leg)</li>
+            <li>William Teller's Tasks (Reward: Left Foot)</li>
+            <li>Nina Nitelight's Tasks (Reward: Upper Right Leg)</li>
+            <li>Honey Moon's Tasks (Reward: Lower Right Leg)</li>
+            <li>Dreamy Daphne's Tasks (Reward: Right Foot)</li>
+            <li>Smugy Mascara's Tasks (Reward: Pelvis)</li>
+            <li>Sandy Sandman's Tasks (Reward: Upper Torso)</li>
+            <li>Random Task (Reward: Upper Left Arm)</li>
+            <li>Random Task (Reward: Lower Left Arm)</li>
+            <li>Random Task (Reward: Upper Right Arm)</li>
+            <li>Random Task (Reward: Lower Right Arm)</li>
+        </ol>
+        <p>
+            Ranking up a cog suit works similarly to how cog levels work. A toon starts out as a level 1 Short Change.
+            As a toon continues to defeat the C.F.O., their cog suit will continue to level up. For example, to a level 2 Short Change 
+            after defeating one C.F.O. Would if a toon is currently a level 5 Short Change, there is no level 6 Short Change
+            to promote to! Good point! A toon's cog suit will then upgrade to a level 2 Penny Pincher.
+        </p>
+        <p>
+            After defeating the C.F.O. and leveling up a suit, a promotion will need to be earned each time. To earn a promotion, a 
+            toon needs to collect a certain amount of cogbucks. The higher level suit, the more cogbucks needed. Cogbucks can be collected 
+            by defeating Cashbots. Cogbucks will be rewarded at the end of a battle in the same way gag experience is earned. The most
+            efficient way to earn cogbucks is by completing <a href="#mint">Cashbot Mints</a>.
+        </p>
+        <p>
+            What happens once a toon reaches a level 12 Robber Baron suit? A toon can continue to rank up their suit until
+            they reach level 50, the maxed level. Upon reaching level 50, a toon will no longer need to collect cogbucks to 
+            fight the C.F.O. As a toon reaches level 15, 20, 30, 40, and 50, they receive a laff point as a reward!
+        </p>
+        <p>
+            To view cog suit information, go to the Cog Disguise page by clicking the torso tab 
+            <span><img class="book-tab" src="~/images/cog_disguise_tab.PNG"></span> 
+            in the Shticker Book.
+        </p>
+        <h2 id="unite">Unites</h2>
+        <p>
+            A Unite is a one time use reward given by defeating the C.F.O. Mata Hairy will give out a random unite after the C.F.O. 
+            is defeated. Unites are able to restock gags, heal laff points, or give jellybeans. They can only reach toons within a 
+            short radius of the toon using the unite phrase. Unites are used the same way SpeedChat phrases are used. A toon can go 
+            into their SpeedChat menu and hover over the Unite! tab to use what they have at any time.  
         </p>
         <br><br>
         <div style="display:flex;justify-content:space-around;">
             <a href="#list">List of Cashbots</a>
             <a href="#where">Where to Find Cashbots</a>
             <a href="#hq">Cashbot HQ</a>
+            <a href="#suit">Building a Cashbot Disguise</a>
+            <a href="#unite">Unites</a>
         </div>
     </div>
 </div>

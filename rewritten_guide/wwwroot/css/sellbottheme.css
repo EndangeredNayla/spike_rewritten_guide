@@ -210,7 +210,8 @@ nav .dropdown:hover .dropdown-content {
 .logo img {
 	display: block;
 	padding-top: 6em;
-	width: 85em;
+	max-width: 85em;
+	width: 100%;
 	margin: -2em auto;
 }
 
