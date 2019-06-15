@@ -115,12 +115,6 @@ nav .dropdown:hover .dropdown-content {
 	text-shadow: 0 0 7px red;
 }
 
-ul li {
-	padding: 5px;
-	font-size: 18px;
-	font-weight: 400;
-}
-
 /** list css */
 .list h2 {
 	text-align: center;
