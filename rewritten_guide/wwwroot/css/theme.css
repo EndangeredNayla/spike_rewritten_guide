@@ -171,3 +171,19 @@ ul li {
 	width: auto;
 	height: 25px;
 }
+
+.content-img {
+	display: block;
+	margin: auto;
+	width: auto;
+	border-radius: 1em;
+}
+
+.row {
+	display: flex;
+	padding: 0 25px;
+}
+  
+.column {
+	flex: 33.33%;
+}
