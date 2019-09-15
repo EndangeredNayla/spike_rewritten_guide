@@ -76,9 +76,12 @@ namespace rewritten_guide.Controllers
             return View("Views/Home/Activities/Gardening/Gardening.cshtml");
         }
 
-        public IActionResult GardeningSpecies()
-        {
-            return View("Views/Home/Activities/Gardening/GardeningSpecies.cshtml");
+        public PartialViewResult LoadGardening1() {
+            return PartialView("_GardeningPartialView");
+        }
+
+        public IActionResult LoadGardening2() {
+            return PartialView("_GardeningSpeciesView");
         }
 
         public IActionResult Fishing()
