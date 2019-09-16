@@ -1,0 +1,161 @@
+@{
+    ViewData["Title"] = "Fishing";
+}
+
+<link href="~/css/list.css" rel="stylesheet" type="text/css">
+
+<div class="panel">
+    <div class="panel-content">
+        <h1><a id="fishingTop">Fishing</a></h1>
+        <p>
+            Fishing is a fun way to earn yourself an additional 7 laff points! At any time, in any playground
+            with a pond, which is all of them, a toon can fish to earn jellybeans and/or to add new species to their fish album.
+        </p>
+        <p>
+            To view the fishing bucket, fish album, and other fishing information, check out the fish
+            tab <span><img class="book-tab" src="~/images/fish_tab.PNG"></span> in the Shticker Book.
+        </p>
+        <div style="display:flex;justify-content:space-around;">
+            <a href="#fish">How to Fish</a>
+            <a href="#ponds">Ponds & Rods</a>
+            <a href="#bingo">Fish Bingo</a>
+            <a href="#fishFinder">Finding Fish Species</a>
+        </div>
+        <h2 id="fish">How to Fish</h2>
+        <p>
+            To start fishing, simply walk up to any avaliable fishing dock. From here, you will see the fishing
+            dashboard that displays your jellybean jar, a bucket with a capacity of 20, and a circle labled "Cast".
+            To throw a line, click and hold the Cast button then pull left or right for direction and pull back for
+            distance. Release the Cast button to throw the line. Each cast will cost you 1 or more jellybeans. Your goal
+            is to throw a line near the moving shadows in the pond. If you successfully catch a fish, the information
+            card for the fish you caught will pop up on your screen and the fish will be added to your bucket.
+        </p>
+        <p>
+            Similar to <a asp-area="" asp-controller="Home" asp-action="Gardening">gardening</a>, for every 10 new species caught and sold,
+            a laff point is earned! There are 70 total species and 7 earnable fishing trophies.
+        </p>
+        <p>
+            Once you have reached capacity in your fishing bucket, you have to sell your fish to a fisherman or
+            at the petshop. Fishermen can be found in close proximity to the pond you are fishing at. If you are
+            fishing at your estate, there is a yellow bucket next to the pond where you can sell your fish. If
+            you sell your fish for more jellybeans than you can carry, do not fear! The overflow will go to your
+            main jellybean bank in your estate.
+        </p>
+        <p>
+            Click <a href="~/doc/fishing.pdf" title="Visual How To PDF guide" target="_blank">here</a> to view a more detailed 
+            guide on how to fish.
+        </p>
+        <h2 id="ponds">Ponds & Rods</h2>
+        <p>
+            A pond is the area were a toon is able to fish. They are located in each playground and can also
+            be found on any street. Note, you will not find a pond in cog headquarters, Goofy Speedway, or Chip n'
+            Dales MiniGolf. Most ponds are unique in a way that they contain different types of fish species. Some
+            provide a better probablity of catching certain species as well. This can be helpful when on the hunt for
+            rare fishes!
+        </p>
+        <img class="content-img" style="height:160px;" src="~/images/mml_pond.PNG">
+        <p>
+            Of course to fish, a toon needs a fishing rod! There is no initial purchase necessary to start fishing,
+            every toon starts out with a Twig rod. The Twig rod is the weakest tier rod and will not be able to catch
+            heavier fish. But do not worry, you can upgrade your rod by purchasing them as they become
+            avaliable in Clarabelle's Catalog! These upgrades are important if you are interested in catching
+            all 70 fish. With each upgrade, an additional jellybean is added to the cost of casting. Check out the table
+            below to see how each rod differs and what each upgrade will provide you:
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <th>Rod</th>
+                <th>Weight (lbs)</th>
+                <th>Cost (per cast)</th>
+                <th>Avaliable Fish Species</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Twig Rod</td>
+                <td>0 - 4</td>
+                <td>1 jellybean</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Bamboo Rod</td>
+                <td>0 - 8</td>
+                <td>2 jellybeans</td>
+                <td>49 (+11)</td>
+            </tr>
+            <tr>
+                <td>Hardwood Rod</td>
+                <td>0 - 12</td>
+                <td>3 jellybeans</td>
+                <td>60 (+11)</td>
+            </tr>
+            <tr>
+                <td>Steel Rod</td>
+                <td>0 - 16</td>
+                <td>4 jellybeans</td>
+                <td>69 (+9)</td>
+            </tr>
+            <tr>
+                <td>Gold Rod</td>
+                <td>0 - 20</td>
+                <td>5 jellybeans</td>
+                <td>70 (+1)</td>
+            </tr>
+            </tbody>
+        </table>
+        <p>Note, having an upgraded rod will increase the probablity of catching a rare fish species.</p>
+        <h2 id="bingo">Fish Bingo</h2>
+        <p>
+            Fish Bingo is an event which happens every Wednesday and every Silly Saturday. The objective of
+            Fish Bingo is very very similar to how regular Bingo works. The aim is to fill the white spots
+            on the board, which will appear in your fish dashboard on the appropriate days. To do this, you have to
+            catch the fish that appear on the board. If you do successfully catch a needed fish, the spot on the
+            board will flash red. Be quick, that spot must be clicked before someone else marks it! If all the white
+            spots are marked, the Bingo button will begin to flash and the first toon to click it gets the
+            reward.
+        </p>
+        <div class="row">
+            <div class="column">
+                <img class="content-img" style="height:150px;" src="~/images/fish/fish_bingo_classic.jpg">
+            </div>
+            <div class="column">
+                <img class="content-img" style="height:150px;" src="~/images/fish/fish_bingo_diagonals.jpg">
+            </div>
+            <div class="column">
+                <img class="content-img" style="height:150px;" src="~/images/fish/fish_bingo_corners.jpg">
+            </div>
+            <div class="column">
+                <img class="content-img" style="height:150px;" src="~/images/fish/fish_bingo_threeway.jpg">
+            </div>
+        </div>
+        <p>Here is a Bingo tip: If an old boot is caught, any spot on the board can be marked.</p>
+        <br><br>
+        <div style="display:flex;justify-content:space-around;">
+            <a href="#fish">How to Fish</a>
+            <a href="#ponds">Ponds & Rods</a>
+            <a href="#bingo">Fish Bingo</a>
+        </div>
+    </div>
+</div>
+<div class="panel" style="margin-top:unset;">
+    <div class="panel-content">
+        <h2><a id="fishFinder">Finding Fish Species</a></h2>
+        <p>
+            Ready to start fishing? Great! There are many different types of fish species to catch. 
+            Different types of species are found in different ponds across Toontown. Some fish are harder to find
+            than others. Use the lists below as a guide to find fishes. You can organize by fish type, by rod type, 
+            or by pond location. Happy fishing!
+        </p>
+    </div>
+</div>
+<div style="display:block;" id="info1">
+    @Html.Partial("~/Views/Shared/_FishingPartialView.cshtml");
+</div>
+<div style="display:none;" id="info2">
+    @Html.Partial("~/Views/Shared/_FishingRodView.cshtml");
+</div>
+<div style="display:none;" id="info3">
+    @Html.Partial("~/Views/Shared/_FishingPondView.cshtml");
+</div>
+<script src="~/js/toggle-partials.js" asp-append-version="true"></script>

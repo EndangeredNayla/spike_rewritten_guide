@@ -1,23 +1,15 @@
-function getCostCombo() {
-    var x = document.getElementById("combo1");
-    var y = document.getElementById("combo2");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none"
-    } else {
-        x.style.display = "none"
-        y.style.display = "block"
-    }
+function getCombos(x, y) {
+    var x = document.getElementById(x);
+    var y = document.getElementById(y);
+    x.style.display = "block";
+    y.style.display = "none";
 }
 
-function getColorCombo() {
-    var x = document.getElementById("combo2");
-    var y = document.getElementById("combo1");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none"
-    } else {
-        x.style.display = "none"
-        y.style.display = "block"
-    }
+function getFishInfo(x, y, z) {
+    var x = document.getElementById(x);
+    var y = document.getElementById(y);
+    var z = document.getElementById(z);
+    x.style.display = "block";
+    y.style.display = "none";
+    z.style.display = "none";
 }

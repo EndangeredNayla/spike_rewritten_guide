@@ -73,7 +73,7 @@ namespace rewritten_guide.Controllers
 
         public IActionResult Gardening()
         {
-            return View("Views/Home/Activities/Gardening/Gardening.cshtml");
+            return View("Views/Home/Activities/Gardening.cshtml");
         }
 
         public PartialViewResult LoadGardening1() {
@@ -86,17 +86,19 @@ namespace rewritten_guide.Controllers
 
         public IActionResult Fishing()
         {
-           return View("Views/Home/Activities/Fishing/Fishing.cshtml"); 
+           return View("Views/Home/Activities/Fishing.cshtml"); 
         }
 
-        public IActionResult FishingRods()
-        {
-           return View("Views/Home/Activities/Fishing/FishingRods.cshtml"); 
+        public PartialViewResult LoadFishing1() {
+            return PartialView("_FishingPartialView");
         }
 
-        public IActionResult FishingPonds()
-        {
-           return View("Views/Home/Activities/Fishing/FishingPonds.cshtml"); 
+        public IActionResult LoadFishing2() {
+            return PartialView("_FishingRodView");
+        }
+
+        public IActionResult LoadFishing3() {
+            return PartialView("_FishingPondView");
         }
 
         public IActionResult Racing()
