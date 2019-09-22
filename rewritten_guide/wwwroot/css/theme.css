@@ -181,3 +181,21 @@ nav .dropdown:hover .dropdown-content {
 .column {
 	flex: 33.33%;
 }
+
+summary {
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+details[open] summary ~ * {
+	animation: sweep .5s ease-in-out;
+  }
+  
+  @keyframes sweep {
+	0%    {opacity: 0; margin-top: -10px}
+	100%  {opacity: 1; margin-top: 0px}
+  }

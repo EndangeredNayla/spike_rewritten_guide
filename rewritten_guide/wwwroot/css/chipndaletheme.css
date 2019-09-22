@@ -14,7 +14,7 @@ body {
 	color: #333;
 }
 
-body h1, h2, h3 {
+body h1, h2, h3, summary {
     font-family: 'Luckiest Guy', cursive;
 	color: #333;
 	font-weight: 400;

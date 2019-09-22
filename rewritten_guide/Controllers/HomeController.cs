@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using rewritten_guide.Models;
 using System.Net.Mail;
@@ -38,14 +35,14 @@ namespace rewritten_guide.Controllers
 
                     smtp.Port = 587;
 
-                    smtp.Credentials = new System.Net.NetworkCredential("spikes.rewritten.guide@gmail.com", "#spike0313");
+                    smtp.Credentials = new System.Net.NetworkCredential("spikes.rewritten.guide@gmail.com", "SpikExqK7Gztkn7qbc0313");
 
                     smtp.EnableSsl = true;
 
                     smtp.Send(msz);
 
                     ModelState.Clear();
-                    ViewBag.Message = "Thank for for you question! Spike will get back to you as soon as possible!";
+                    ViewBag.Message = "Thank you for your question! Spike will get back to you as soon as possible!";
                 }
                 catch(Exception)
                 {
