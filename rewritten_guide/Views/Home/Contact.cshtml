@@ -14,7 +14,9 @@
             <div>
                 <form method="post" id="contactform">
                     <div class="contact-input">
-                        <label asp-for="Name">Toon Name<span style="color:red;"> * </span></label>
+                        <label asp-for="Name">
+                            Toon Name<span style="color:red;"> * </span><span title="NOT your real name, unless you feel so inclined">&#128712;</span>
+                        </label>
                         <input asp-for="Name" type="text" placeholder="Please tell me your toon's name!">
                         <span class="contact-validation" asp-validation-for="Name"></span>
                     </div>
@@ -39,7 +41,9 @@
                     </div>
 
                     <div class="contact-input">
-                        <label asp-for="Email">Email Address<span style="color:red;"> * </span></label>
+                        <label asp-for="Email">
+                            Email Address<span style="color:red;"> * </span><span title="Your email address is NOT stored anywhere, I promise">&#128712;</span>
+                        </label>
                         <input asp-for="Email" type="email" placeholder="Please tell me your email so I can respond!">
                         <span class="contact-validation" asp-validation-for="Email"></span>
                     </div>
