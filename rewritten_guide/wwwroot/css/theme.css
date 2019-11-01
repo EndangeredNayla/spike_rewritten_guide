@@ -1,12 +1,12 @@
 html {
-	height: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body p {
@@ -14,112 +14,117 @@ body p {
 }
 
 body a {
-	color: red;
+    color: red;
 }
 
-body h1 a, h2 a {
-	color: #333;
+body h1 a,
+h2 a {
+    color: #333;
 }
 
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-	border-top: 1px solid #eee;
+    border-top: 1px solid #eee;
 }
 
 table {
-	border-collapse: collapse;
-	width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 th {
     vertical-align: bottom;
 }
 
-td, th {
-	text-align: center;
-	border-bottom: 1px solid #ddd;
-	padding: 3px;
+td,
+th {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 3px;
 }
 
 tbody tr td img {
-	vertical-align: middle;
-	height: auto;
-	width: 80px;
+    vertical-align: middle;
+    height: auto;
+    width: 80px;
 }
 
 tbody tr {
-	transition: background-color .15s linear;
+    transition: background-color .15s linear;
 }
 
 tbody tr:hover {
-	background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 tr th img {
-	width: 30px;
-	height: auto;
+    width: 30px;
+    height: auto;
 }
 
 .shrink {
-	position: fixed;
+    position: fixed;
     margin-bottom: 50px;
-	height: 50px;
-	background-color: rgba(255, 255, 255, 0.45);
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 nav img {
-	margin: -30px -50px;
-	padding: 10px 85px 0 10px;
-	float: left;
-	height: 85px;
-	width: auto;
-	cursor: pointer;
+    margin: -30px -50px;
+    padding: 10px 85px 0 10px;
+    float: left;
+    height: 85px;
+    width: auto;
+    cursor: pointer;
 }
 
 .dropdown {
-	float: left;
-	overflow: hidden;
+    float: left;
+    overflow: hidden;
 }
 
-nav a:hover, .dropdown:hover .dropbtn {
-	text-shadow: 0 0 13px red;
+nav a:hover,
+.dropdown:hover .dropbtn {
+    text-shadow: 0 0 13px red;
 }
 
 nav .dropdown:hover .dropdown-content {
-	display: block;
+    display: block;
 }
 
 .logo img {
-	display: block;
-	padding-top: 6em;
-	max-width: 85em;
-	width: 100%;
-	margin: -2em auto;
+    display: block;
+    padding-top: 6em;
+    max-width: 85em;
+    width: 100%;
+    margin: -2em auto;
 }
 
 .show {
-	visibility: visible !important;
-	opacity: 1 !important;
-	transition: .5s;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: .5s;
 }
 
 .footer-panel a {
-	transition: text-shadow .15s linear;
-	text-decoration: none;
-	padding: 0 7px;
+    transition: text-shadow .15s linear;
+    text-decoration: none;
+    padding: 0 7px;
 }
 
 .footer-panel a:hover {
-	text-shadow: 0 0 7px red;
+    text-shadow: 0 0 7px red;
 }
 
+
 /** list css */
+
 .list h2 {
-	text-align: center;
-	margin-bottom: -15px;
-	padding-top: 20px;
+    text-align: center;
+    margin-bottom: -15px;
+    padding-top: 20px;
 }
 
 .list {
@@ -127,83 +132,83 @@ nav .dropdown:hover .dropdown-content {
 }
 
 .list ul table tr th {
-	font-weight: 400;
+    font-weight: 400;
 }
 
 .list ul table td:not(:last-child) {
-	border-right: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 .list-navigation {
-	color: red;
-	font-size: 13px;
-	text-align: center;
-	margin: -25px 0 2.5em 0;
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    margin: -25px 0 2.5em 0;
 }
 
 .list ul img {
-	padding: 15px 0 0 0;
+    padding: 15px 0 0 0;
 }
 
 .list .filtering {
-	display: flex;
-	justify-content: center;
-	margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
 }
 
 .list .filtering button:not(:last-child) {
-	border-right: none;
+    border-right: none;
 }
 
 .list-fish {
-	width: 125px;
-	height: auto;
+    width: 125px;
+    height: auto;
 }
 
 .book-tab {
-	margin-bottom: -6px;
-	width: auto;
-	height: 25px;
+    margin-bottom: -6px;
+    width: auto;
+    height: 25px;
 }
 
 .content-img {
-	display: block;
-	margin: auto;
-	width: auto;
-	border-radius: 1em;
+    display: block;
+    margin: auto;
+    width: auto;
+    border-radius: 1em;
 }
 
 .row {
-	display: flex;
-	padding: 0 25px;
+    display: flex;
+    padding: 0 25px;
 }
-  
+
 .column {
-	flex: 33.33%;
+    flex: 33.33%;
 }
 
 .badge {
-	display: block;
-	float: right;
-	margin: -30px 0 0 5px;
-	height: 80px;
-	width: auto;
-	border-radius: 1em;
+    display: block;
+    float: right;
+    margin: -30px 0 0 5px;
+    height: 80px;
+    width: auto;
+    border-radius: 1em;
 }
 
 .panel-nav {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .video-frame {
-	margin: 0 auto;
-	display: block;
-	border-radius: 1em;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1em;
 }
 
 summary {
-	display: block;
+    display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -211,11 +216,17 @@ summary {
     margin-inline-end: 0px;
 }
 
-details[open] summary ~ * {
-	animation: sweep .5s ease-in-out;
-  }
-  
-  @keyframes sweep {
-	0%    {opacity: 0; margin-top: -10px}
-	100%  {opacity: 1; margin-top: 0px}
-  }
+details[open] summary~* {
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-top: -10px
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px
+    }
+}

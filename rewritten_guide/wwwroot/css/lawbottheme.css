@@ -1,253 +1,267 @@
 body {
-	position: relative;
-	margin: 0;
-	min-height: 100%;
-	padding-bottom: 4rem;
-	padding-top: 6rem;
-	font-family: 'Lato', sans-serif;
-	background-color: #cae6f4;
-	background: url('../images/cogs/lawbots/LBHQ2.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	overflow-x: hidden;
-	color: #333;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #cae6f4;
+    background: url('../images/cogs/lawbots/LBHQ2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color: #333;
 }
 
-body h1, h2, h3, summary {
+body h1,
+h2,
+h3,
+summary {
     font-family: 'Bree Serif', serif;
-	color: #333;
-	font-weight: 400;
+    color: #333;
+    font-weight: 400;
 }
 
 nav {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	box-sizing: border-box;
-	overflow: hidden;
-	padding: 5px 15px;
-	background-color: rgba(255, 255, 255, 0.45);
-	border-bottom: 1px solid #31376355;
-	transition: all .4s ease-in-out;
-	overflow: visible;
-	z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-bottom: 1px solid #31376355;
+    transition: all .4s ease-in-out;
+    overflow: visible;
+    z-index: 1;
 }
 
 nav a {
-	cursor: pointer;
-	float: left;
-	color: white;
-	font-family: 'Bree Serif', serif;
-	font-weight: 400;
-	text-align: center;
-	padding: 25px 40px;
-	text-decoration: none;
-	text-shadow: 0 0 13px #2d398d;
-	font-size: 25px;
-	transition: text-shadow .15s linear;
+    cursor: pointer;
+    float: left;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    text-shadow: 0 0 13px #2d398d;
+    font-size: 25px;
+    transition: text-shadow .15s linear;
 }
 
 .shrink a {
-	padding: 6px 30px;
-	font-size: 20px;
+    padding: 6px 30px;
+    font-size: 20px;
 }
 
 .shrink img {
     margin: -9px -50px;
-	padding: 0 75px 0 12px;
-	height: 45px;
+    padding: 0 75px 0 12px;
+    height: 45px;
 }
 
 .dropdown .dropbtn {
-	cursor: pointer;
-	font-family: 'Bree Serif', serif;
-	text-shadow: 0 0 13px #2d398d;
-	font-weight: 400;
-	font-size: 25px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 25px 37px 25px 40px;
-	margin: 0;
-	transition: text-shadow .15s linear;
-	background-color: inherit;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 0 0 13px #2d398d;
+    font-weight: 400;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 25px 37px 25px 40px;
+    margin: 0;
+    transition: text-shadow .15s linear;
+    background-color: inherit;
 }
 
 .shrink .dropdown .dropbtn {
-	font-size: 20px;
-	padding: 6px 27px 6px 30px;
+    font-size: 20px;
+    padding: 6px 27px 6px 30px;
 }
 
 nav .dropdown-content {
-	display: none;
-	position: absolute;
-	width: auto;
-	margin-top: -15px;
-	padding: 0 5px;
-	background: url('../images/cogs/lawbots/marble.png');
-	z-index: 1;
-	box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    display: none;
+    position: absolute;
+    width: auto;
+    margin-top: -15px;
+    padding: 0 5px;
+    background: url('../images/cogs/lawbots/marble.png');
+    z-index: 1;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
 }
 
 .shrink .dropdown-content {
-	margin-top: -3px;
+    margin-top: -3px;
 }
 
 nav .dropdown-content a {
-	color: white;
-	padding: 20px;
-	font-family: 'Bree Serif', serif;
-	font-weight: 400;
-	text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    text-decoration: none;
     text-shadow: 0 0 10px red;
     text-align: center;
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .shrink .dropdown-content a {
-	padding: 12px;
-	font-size: 17px;
+    padding: 12px;
+    font-size: 17px;
 }
 
 .backtotop-link {
-	visibility: hidden;
-	opacity: 0;
-	position: fixed;
-	top: calc(100vh - 115px);
-	right: 5px;
-	padding: 10px 12px;
-	margin: 35px;
-	background-color: rgba(255, 255, 255, 0.45);
-	border: 1px solid #31376395;
-	border-radius: 1px;
-	transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: calc(100vh - 115px);
+    right: 5px;
+    padding: 10px 12px;
+    margin: 35px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border: 1px solid #31376395;
+    border-radius: 1px;
+    transition: .5s;
 }
 
 .backtotop-link a {
-	color: #313763;
-	font-size: 14px;
+    color: #313763;
+    font-size: 14px;
 }
 
 .panel {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
     background-image: url('../images/cogs/lawbots/marble.png');
-	width: 60em;
-	margin-top: 6em;
-	margin-bottom: 2em;
+    width: 60em;
+    margin-top: 6em;
+    margin-bottom: 2em;
     box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
     border-radius: 1px;
 }
 
 .panel-content {
-	padding: 5px 30px 17px 30px;
+    padding: 5px 30px 17px 30px;
 }
 
 .footer-panel {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 27px;
-	color: #313763;
-	display: flex;
-	justify-content:space-between;
-	margin-top: 7em;
-	padding: 4px;
-	background-color: rgba(255, 255, 255, 0.45);
-	border-top: 1px solid #2d398d75;
-	font-size: 13px;
-	vertical-align: top;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    color: #313763;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-top: 1px solid #2d398d75;
+    font-size: 13px;
+    vertical-align: top;
 }
 
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #8084a565;
 }
 
+
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #31376365;
 }
 
+
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #111b6365;
 }
 
+
 /** list css */
+
 .list ul {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	list-style-type: none;
-	background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    background-color: white;
     background-image: url('../images/cogs/lawbots/marble.png');
-	font-family: 'Bree Serif', serif;
-	font-weight: 400;
-	font-size: 18px;
-	box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
-	width: 30em;
-	height: auto;
-	text-align: center;
-	margin-bottom: 15px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    font-size: 18px;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    width: 30em;
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px;
     padding: 20px 0 20px 0;
     border-radius: 1px;
 }
 
 .list ul table tr td {
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 
 .list ul .bean-colors {
-	padding: 10px 5px 0 5px;
-	font-family: 'Lato', sans-serif;
+    padding: 10px 5px 0 5px;
+    font-family: 'Lato', sans-serif;
 }
 
 .list .filtering button {
-	border: 1px solid #313763;
-	box-sizing: border-box;
-	padding: 7px;
-	font-family: 'Lato', sans-serif;
-	background-color: transparent;
-	color: #313763;
-	font-size: 17px;
-	cursor: pointer;
+    border: 1px solid #313763;
+    box-sizing: border-box;
+    padding: 7px;
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    color: #313763;
+    font-size: 17px;
+    cursor: pointer;
 }
 
 .list .filtering button:first-child {
-	border-radius: 1px 0 0 1px;
+    border-radius: 1px 0 0 1px;
 }
 
 .list .filtering button:last-child {
     border-radius: 0 1px 1px 0;
 }
 
-.list .filtering button:hover, .list .filtering .active {
-	background-color: #31376350;
+.list .filtering button:hover,
+.list .filtering .active {
+    background-color: #31376350;
 }
 
 .theme-select {
-	border: 1px solid #31376355 !important;
-	border-radius: 1px !important;
+    border: 1px solid #31376355 !important;
+    border-radius: 1px !important;
     font-family: 'Roboto', sans-serif !important;
-	color: grey !important;
-	font-size: 11px;
+    color: grey !important;
+    font-size: 11px;
 }
 
 .disclaimer {
-	text-align: center;
-	color: #31376390;
-	font-size: 12px;
-	width: 100%;
+    text-align: center;
+    color: #31376390;
+    font-size: 12px;
+    width: 100%;
 }

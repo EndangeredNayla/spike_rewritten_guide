@@ -18,32 +18,30 @@
 <body id="main">
     <div id="return-top"></div>
     <nav>
-      <a asp-area="" asp-controller="Home" asp-action="Index">
-        <img src="~/images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
-      </a>
-      <div class="dropdown">
-        <button class="dropbtn">Activities&#9662;
-        </button>
-        <div class="dropdown-content">
-          <a asp-area="" asp-controller="Home" asp-action="Gardening">Gardening</a>
-          <a asp-area="" asp-controller="Home" asp-action="Fishing">Fishing</a>
-          <a asp-area="" asp-controller="Home" asp-action="Racing">Racing</a>
-          <a asp-area="" asp-controller="Home" asp-action="Golfing">Golfing</a>
-          <a asp-area="" asp-controller="Home" asp-action="Doodles">Doodles</a>
+        <a asp-area="" asp-controller="Home" asp-action="Index">
+            <img src="~/images/spikes_unwritten_guide.png" alt="Spike's Unwritten Guide">Home
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">Activities&#9662;</button>
+            <div class="dropdown-content">
+                <a asp-area="" asp-controller="Home" asp-action="Gardening">Gardening</a>
+                <a asp-area="" asp-controller="Home" asp-action="Fishing">Fishing</a>
+                <a asp-area="" asp-controller="Home" asp-action="Racing">Racing</a>
+                <a asp-area="" asp-controller="Home" asp-action="Golfing">Golfing</a>
+                <a asp-area="" asp-controller="Home" asp-action="Doodles">Doodles</a>
+            </div>
         </div>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn">Cogs&#9662;
-        </button>
-        <div class="dropdown-content">
-          <a asp-area="" asp-controller="Home" asp-action="Sellbot">Sellbots</a>
-          <a asp-area="" asp-controller="Home" asp-action="Cashbot">Cashbots</a>
-          <a asp-area="" asp-controller="Home" asp-action="Lawbot">Lawbots</a>
-          <a asp-area="" asp-controller="Home" asp-action="Bossbot">Bossbots</a>
+        <div class="dropdown">
+            <button class="dropbtn">Cogs&#9662;</button>
+            <div class="dropdown-content">
+                <a asp-area="" asp-controller="Home" asp-action="Sellbot">Sellbots</a>
+                <a asp-area="" asp-controller="Home" asp-action="Cashbot">Cashbots</a>
+                <a asp-area="" asp-controller="Home" asp-action="Lawbot">Lawbots</a>
+                <a asp-area="" asp-controller="Home" asp-action="Bossbot">Bossbots</a>
+            </div>
         </div>
-      </div>
-      <a asp-area="" asp-controller="Home" asp-action="Toontips">Toon Tips</a>
-      <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+        <a asp-area="" asp-controller="Home" asp-action="Toontips">Toon Tips</a>
+        <a asp-area="" asp-controller="Home" asp-action="About">About</a>
     </nav>
     <div class="backtotop-link" id="backtotop-link"><a href="#return-top">Back to Top</a></div>
     <div class="container body-content">
@@ -57,10 +55,13 @@
                     <option value='/css/lawbottheme.css'>Lawbot Theme</option>
                     <option value='/css/bossbottheme.css'>Bossbot Theme</option>
                 </select>
-                <a href="https://www.youtube.com/channel/UCkPqlmYEkL9ELhRHV7TWS9w" target="_blank"><i class="fa fa-youtube-play" style="font-size:15px;"></i></a>
+                <a href="https://www.youtube.com/channel/UCkPqlmYEkL9ELhRHV7TWS9w" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-youtube-play" style="font-size:15px;"></i>
+                </a>
                 <a asp-area="" asp-controller="Home" asp-action="Contact">Contact Spike</a>
                 <a asp-area="" asp-controller="Home" asp-action="Faq">FAQ</a>
                 <a asp-area="" asp-controller="Home" asp-action="Sitemap">Site Map</a>
+                <a href="https://ttr-invasion-tracker.herokuapp.com/" target="_blank" rel="noopener noreferrer">Invasion Tracker</a>
             </div>
             <div>Spike's Rewritten Guide &copy; 2019</div>
         </div>
