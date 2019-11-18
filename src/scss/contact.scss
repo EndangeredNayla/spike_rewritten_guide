@@ -1,0 +1,53 @@
+input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	resize: vertical;
+}
+select.toon-input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	resize: vertical;
+}
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	resize: vertical;
+}
+button[type=submit] {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin-bottom: 3px;
+	font-family: 'Roboto', sans-serif;
+	&:hover {
+		box-shadow: 1px 1px 8px 1px red;
+	}
+}
+.contact-input {
+	margin-bottom: 15px;
+}
+.contact-validation {
+	font-size: 13px;
+	color: red;
+}

@@ -1,0 +1,139 @@
+/** list css */
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("/images/chipndales-background.jpg");
+  h1 {
+    font-family: "Luckiest Guy", cursive;
+  }
+}
+h2 {
+  font-family: "Luckiest Guy", cursive;
+}
+h3 {
+  font-family: "Luckiest Guy", cursive;
+}
+summary {
+  font-family: "Luckiest Guy", cursive;
+}
+nav {
+  border-bottom: 1px solid #6294d655;
+  a {
+    font-family: "Luckiest Guy", cursive;
+    padding: 30px 40px;
+    text-shadow: 0 0 13px #285b9f;
+  }
+  .dropdown-content {
+    margin: -30px 0 0 -30px;
+    padding: 0 60px 50px 27px;
+    background-image: url("/images/cartoon-cloud.png");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    a {
+      padding: 67px 30px 30px 30px;
+      font-family: "Luckiest Guy", cursive;
+    }
+  }
+}
+.shrink {
+  a {
+    padding: 9px 30px;
+  }
+  .dropdown {
+    .dropbtn {
+      padding: 9px 27px 9px 30px;
+    }
+  }
+  .dropdown-content {
+    margin: -11px 0 0 -20px;
+    padding: 0 55px 45px 24px;
+    background-size: 100% 98px;
+    a {
+      padding: 40px 17px 17px 17px;
+      font-size: 17px;
+    }
+  }
+}
+.dropdown {
+  .dropbtn {
+    font-family: "Luckiest Guy", cursive;
+    text-shadow: 0 0 13px #285b9f;
+    padding: 30px 37px 30px 40px;
+  }
+}
+.backtotop-link {
+  padding: 10px 12px;
+  border: 1px solid #6294d655;
+  border-radius: 5px;
+  a {
+    color: #6294d6;
+  }
+}
+.panel {
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 1px 1px 8px 1px silver;
+  .panel-content {
+    padding: 5px 30px 17px 30px;
+  }
+}
+.footer-panel {
+  color: #6294d6;
+  padding: 5px;
+  border-top: 1px solid #6294d655;
+  .theme-select {
+    border: 1px solid #6294d655 !important;
+    border-radius: 5px !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #cae6f465;
+}
+::-webkit-scrollbar-thumb {
+  background: #6294d665;
+  &:hover {
+    background: #3469af65;
+  }
+}
+.list {
+  ul {
+    background-color: #ffffff;
+    font-family: "Luckiest Guy", cursive;
+    border-radius: 1em;
+    box-shadow: 1px 1px 8px 1px silver;
+    table {
+      tr {
+        td {
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+    .bean-colors {
+      padding: 10px 5px 0 5px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .filtering {
+    button {
+      border: 1px solid #3069ba;
+      font-family: "Roboto", sans-serif;
+      background-color: transparent;
+      color: #3069ba;
+      &:first-child {
+        border-radius: 5px 0 0 5px;
+      }
+      &:last-child {
+        border-radius: 0 5px 5px 0;
+      }
+      &:hover {
+        background-color: #3069ba50;
+      }
+    }
+    .active {
+      background-color: #3069ba50;
+    }
+  }
+}
+.disclaimer {
+  color: #6294d690;
+}
