@@ -37,8 +37,8 @@ class Gardening extends React.Component {
 
     return (
       <>
-        <div class="panel">
-          <div class="panel-content">
+        <div className="panel">
+          <div className="panel-content">
             <h1>
               <span id="gardeningTop">Gardening</span>
             </h1>
@@ -55,14 +55,14 @@ class Gardening extends React.Component {
               information, check out the{" "}
               <span>
                 <img
-                  class="book-tab"
+                  className="book-tab"
                   src="/images/gardening_tab.PNG"
                   alt="Gardening book tab"
                 />
               </span>{" "}
               tab in the Shticker Book.
             </p>
-            <div class="panel-nav">
+            <div className="panel-nav">
               <a href="#plant">How to Plant Flowers</a>
               <a href="#shovel">Shovels & Watering Cans</a>
               <a href="#trees">Gag Trees</a>
@@ -85,7 +85,7 @@ class Gardening extends React.Component {
               flower combinations!
             </p>
             <img
-              class="content-img"
+              className="content-img"
               style={{ height: 175 + "px" }}
               src="/images/flower_ex.PNG"
               alt="Planted flowers"
@@ -231,7 +231,7 @@ class Gardening extends React.Component {
               To see shovel or watering can skill progress, head to the{" "}
               <span>
                 <img
-                  class="book-tab"
+                  className="book-tab"
                   src="/images/gardening_tab.PNG"
                   alt="Gardening book tab"
                 />
@@ -250,7 +250,7 @@ class Gardening extends React.Component {
               gag tree must not be removed.
             </p>
             <img
-              class="content-img"
+              className="content-img"
               style={{ height: 225 + "px" }}
               src="/images/gag_trees.PNG"
               alt="Gag trees"
@@ -271,7 +271,7 @@ class Gardening extends React.Component {
               plot (shown below) outside the estate to set it up.
             </p>
             <img
-              class="content-img"
+              className="content-img"
               style={{ height: 125 + "px" }}
               src="/images/Planting_Statues.png"
               alt="Statue planter"
@@ -416,7 +416,7 @@ class Gardening extends React.Component {
             </table>
             <br />
             <br />
-            <div class="panel-nav">
+            <div className="panel-nav">
               <a href="#plant">How to Plant Flowers</a>
               <a href="#shovel">Shovels & Watering Cans</a>
               <a href="#trees">Gag Trees</a>
@@ -424,8 +424,8 @@ class Gardening extends React.Component {
             </div>
           </div>
         </div>
-        <div class="panel" style={{ marginTop: 0 }}>
-          <div class="panel-content">
+        <div className="panel" style={{ marginTop: 0 }}>
+          <div className="panel-content">
             <h2>
               <span id="beanCombos">Flower Bean Combinations</span>
             </h2>

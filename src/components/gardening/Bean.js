@@ -5,8 +5,8 @@ class Bean extends React.Component {
   render() {
     return (
       <>
-        <div id="animate" class="list">
-          <div class="list-navigation">
+        <div id="animate" className="list">
+          <div className="list-navigation">
             <a href="#oneBean">One Bean Combos</a> |{" "}
             <a href="#twoBean">Two Bean Combos</a> |{" "}
             <a href="#threeBean">Three Bean Combos</a> |{" "}
@@ -16,8 +16,8 @@ class Bean extends React.Component {
             <a href="#sevenBean">Seven Bean Combos</a> |{" "}
             <a href="#eightBean">Eight Bean Combos</a>
           </div>
-          <div class="filtering">
-            <button name="num" class="active">
+          <div className="filtering">
+            <button name="num" className="active">
               Bean Cost
             </button>
             <button
@@ -43,7 +43,7 @@ class Bean extends React.Component {
               Laff-o-dill
             </li>
             <img src="/images/flowers/laff-o-dil.gif" alt="Laff-o-dil" />
-            <div class="bean-colors" style={{ color: "green" }}>
+            <div className="bean-colors" style={{ color: "green" }}>
               green
             </div>
             <hr />
@@ -55,7 +55,7 @@ class Bean extends React.Component {
               Dandy Pansy
             </li>
             <img src="/images/flowers/dandy-pansy.gif" alt="" />
-            <div class="bean-colors" style={{ color: "orange" }}>
+            <div className="bean-colors" style={{ color: "orange" }}>
               orange
             </div>
             <hr />
@@ -67,7 +67,7 @@ class Bean extends React.Component {
               What-in Carnation
             </li>
             <img src="/images/flowers/what-in-carnation.gif" alt="" />
-            <div class="bean-colors" style={{ color: "pink" }}>
+            <div className="bean-colors" style={{ color: "pink" }}>
               pink
             </div>
             <hr />
@@ -79,7 +79,7 @@ class Bean extends React.Component {
               School Daisy
             </li>
             <img src="/images/flowers/school-daisy.gif" alt="" />
-            <div class="bean-colors" style={{ color: "gold" }}>
+            <div className="bean-colors" style={{ color: "gold" }}>
               yellow
             </div>
             <hr />
@@ -91,7 +91,7 @@ class Bean extends React.Component {
               Lily-of-the-Alley
             </li>
             <img src="/images/flowers/lily-of-the-alley.gif" alt="" />
-            <div class="bean-colors" style={{ color: "darkturquoise" }}>
+            <div className="bean-colors" style={{ color: "darkturquoise" }}>
               cyan
             </div>
           </ul>
@@ -108,7 +108,7 @@ class Bean extends React.Component {
               Daffy Dill
             </li>
             <img src="/images/flowers/daffy-dill.gif" alt="Daffy dill" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "green" }}>green</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span>
             </div>
@@ -121,7 +121,7 @@ class Bean extends React.Component {
               Chim Pansy
             </li>
             <img src="/images/flowers/chim-pansy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span>
             </div>
@@ -134,7 +134,7 @@ class Bean extends React.Component {
               Instant Carnation
             </li>
             <img src="/images/flowers/instant-carnation.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span>
             </div>
@@ -147,7 +147,7 @@ class Bean extends React.Component {
               Lazy Daisy
             </li>
             <img src="/images/flowers/lazy-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "red" }}>red</span>
             </div>
@@ -160,7 +160,7 @@ class Bean extends React.Component {
               Lily Pad
             </li>
             <img src="/images/flowers/lily-pad.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "green" }}>green</span>
             </div>
@@ -178,7 +178,7 @@ class Bean extends React.Component {
               Midsummer Daisy
             </li>
             <img src="/images/flowers/midsummer-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "green" }}>green</span>
@@ -192,7 +192,7 @@ class Bean extends React.Component {
               Potsen Pansy
             </li>
             <img src="/images/flowers/potsen-pansy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span>
@@ -206,7 +206,7 @@ class Bean extends React.Component {
               Hybrid Carnation
             </li>
             <img src="/images/flowers/hybrid-carnation.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span>
@@ -220,7 +220,7 @@ class Bean extends React.Component {
               Summer's Last Rose
             </li>
             <img src="/images/flowers/summers-last-rose.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span>
@@ -234,7 +234,7 @@ class Bean extends React.Component {
               Tiger Lily
             </li>
             <img src="/images/flowers/tiger-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>
@@ -253,7 +253,7 @@ class Bean extends React.Component {
               Giraff-o-dil
             </li>
             <img src="/images/flowers/giraff-o-dil.gif" alt="Giraff o dill" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "green" }}>green</span> +{" "}
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span>+{" "}
@@ -268,7 +268,7 @@ class Bean extends React.Component {
               Marzi Pansy
             </li>
             <img src="/images/flowers/marzi-pansy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span>+{" "}
@@ -283,7 +283,7 @@ class Bean extends React.Component {
               Corn Rose
             </li>
             <img src="/images/flowers/corn-rose.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>+{" "}
@@ -298,7 +298,7 @@ class Bean extends React.Component {
               Freshasa Daisy
             </li>
             <img src="/images/flowers/freshasa-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span>+{" "}
@@ -313,7 +313,7 @@ class Bean extends React.Component {
               Livered Lily
             </li>
             <img src="/images/flowers/livered-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>+{" "}
@@ -333,7 +333,7 @@ class Bean extends React.Component {
               Time and half-o-dil
             </li>
             <img src="/images/flowers/time-and-half-o-dil.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "green" }}>green</span> +{" "}
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "blue" }}>blue</span>+{" "}
@@ -349,7 +349,7 @@ class Bean extends React.Component {
               Side Carnation
             </li>
             <img src="/images/flowers/side-carnation.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "green" }}>green</span>+{" "}
@@ -365,7 +365,7 @@ class Bean extends React.Component {
               Onelip
             </li>
             <img src="/images/flowers/onelip.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "blueviolet" }}>violet</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "blue" }}>blue</span>+{" "}
@@ -381,7 +381,7 @@ class Bean extends React.Component {
               Whoopsie Daisy
             </li>
             <img src="/images/flowers/whoopsie-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>+{" "}
@@ -397,7 +397,7 @@ class Bean extends React.Component {
               Chili Lily
             </li>
             <img src="/images/flowers/chili-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span>+{" "}
@@ -418,7 +418,7 @@ class Bean extends React.Component {
               Tinted Rose
             </li>
             <img src="/images/flowers/tinted-rose.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>+{" "}
@@ -435,7 +435,7 @@ class Bean extends React.Component {
               Smarty Pansy
             </li>
             <img src="/images/flowers/smarty-pansy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "orange" }}>orange</span> +{" "}
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "pink" }}>pink</span>+{" "}
@@ -452,7 +452,7 @@ class Bean extends React.Component {
               Twolip
             </li>
             <img src="/images/flowers/twolip.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "blueviolet" }}>violet</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "red" }}>red</span>+{" "}
@@ -469,7 +469,7 @@ class Bean extends React.Component {
               Upsy Daisy
             </li>
             <img src="/images/flowers/upsy-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span>+{" "}
@@ -486,7 +486,7 @@ class Bean extends React.Component {
               Silly Lily
             </li>
             <img src="/images/flowers/silly-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "blueviolet" }}>violet</span>+{" "}
@@ -508,7 +508,7 @@ class Bean extends React.Component {
               Stinking Rose
             </li>
             <img src="/images/flowers/stinking-rose.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "orange" }}>orange</span>+{" "}
@@ -526,7 +526,7 @@ class Bean extends React.Component {
               Model Carnation
             </li>
             <img src="/images/flowers/model-carnation.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "green" }}>green</span> +{" "}
               <span style={{ color: "green" }}>green</span>+{" "}
@@ -544,7 +544,7 @@ class Bean extends React.Component {
               Car Petunia
             </li>
             <img src="/images/flowers/car-petunia.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "blueviolet" }}>violet</span> +{" "}
               <span style={{ color: "blue" }}>blue</span>+{" "}
@@ -562,7 +562,7 @@ class Bean extends React.Component {
               Crazy Daisy
             </li>
             <img src="/images/flowers/crazy-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "green" }}>green</span> +{" "}
               <span style={{ color: "red" }}>red</span>+{" "}
@@ -580,7 +580,7 @@ class Bean extends React.Component {
               Indubitab Lily
             </li>
             <img src="/images/flowers/indubitab-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "blueviolet" }}>violet</span> +{" "}
               <span style={{ color: "darkturquoise" }}>cyan</span>+{" "}
@@ -603,7 +603,7 @@ class Bean extends React.Component {
               Istilla Rose
             </li>
             <img src="/images/flowers/istilla-rose.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "red" }}>red</span> +{" "}
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "blueviolet" }}>violet</span>+{" "}
@@ -622,7 +622,7 @@ class Bean extends React.Component {
               Threelip
             </li>
             <img src="/images/flowers/threelip.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "blueviolet" }}>violet</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span>+{" "}
@@ -641,7 +641,7 @@ class Bean extends React.Component {
               Platoonia
             </li>
             <img src="/images/flowers/platoonia.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "pink" }}>pink</span> +{" "}
               <span style={{ color: "pink" }}>pink</span>+{" "}
@@ -660,7 +660,7 @@ class Bean extends React.Component {
               Hazy Daisy
             </li>
             <img src="/images/flowers/hazy-daisy.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "gold" }}>yellow</span> +{" "}
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "blueviolet" }}>violet</span>+{" "}
@@ -679,7 +679,7 @@ class Bean extends React.Component {
               Dilly Lily
             </li>
             <img src="/images/flowers/dilly-lily.gif" alt="" />
-            <div class="bean-colors">
+            <div className="bean-colors">
               <span style={{ color: "darkturquoise" }}>cyan</span> +{" "}
               <span style={{ color: "blue" }}>blue</span> +{" "}
               <span style={{ color: "gold" }}>yellow</span>+{" "}

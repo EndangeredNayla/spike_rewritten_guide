@@ -23,7 +23,6 @@ import Racing from "./views/activities/Racing";
 import Doodles from "./views/activities/Doodles";
 
 function App() {
-
   return (
     <>
       <div id="return-top"></div>
