@@ -65,8 +65,16 @@ body.fade {
 	font-size: 13px;
 	text-align: center;
 	margin: -25px 0 2.5em 0;
+	padding: 0 25px;
 }
 .list-fish {
 	width: 125px;
 	height: auto;
+}
+@media screen and (max-width: 650px) {
+	.list {
+		ul{
+			width: 90%;
+		}
+	}
 }
