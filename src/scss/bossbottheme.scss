@@ -1,0 +1,173 @@
+/** list css */
+body {
+  font-family: "Raleway", sans-serif;
+  background: url("/images/cogs/bossbots/Clubhouselobby.png");
+  h1 {
+    font-family: "Knewave", cursive;
+    a {
+      color: #333 !important;
+    }
+  }
+  a {
+    color: #613630 !important;
+  }
+}
+h2 {
+  font-family: "Knewave", cursive;
+  a {
+    color: #333 !important;
+  }
+}
+h3 {
+  font-family: "Knewave", cursive;
+}
+summary {
+  font-family: "Knewave", cursive;
+}
+nav {
+  border-bottom: 1px solid #61363055;
+  a {
+    font-family: "Knewave", cursive;
+    padding: 21px 40px 20px 40px;
+    text-shadow: 0 0 13px #ff0000;
+    &:hover {
+      text-shadow: 0 0 13px #613630 !important;
+    }
+  }
+  .dropdown-content {
+    margin: -15px 0px 0 -25px;
+    padding: 0 60px 75px 35px;
+    background-image: url("/images/cogs/bossbots/red_oil.png");
+    background-repeat: no-repeat;
+    background-size: 100% 130px;
+    a {
+      padding: 42px 20px 20px 20px;
+      font-family: "Knewave", cursive;
+      text-shadow: 0 0 10px #613630 !important;
+    }
+  }
+}
+.shrink {
+  a {
+    padding: 4px 30px 5px 30px;
+  }
+  img {
+    padding: 2px 75px 0 12px !important;
+    height: 50px !important;
+  }
+  .dropdown {
+    .dropbtn {
+      padding: 4px 27px 5px 30px;
+    }
+  }
+  .dropdown-content {
+    margin: -7px 0 0 -20px;
+    padding: 12px 55px 45px 27px;
+    background-size: 100% 90px;
+    a {
+      padding: 12px;
+      font-size: 17px;
+    }
+  }
+}
+.dropdown {
+  .dropbtn {
+    font-family: "Knewave", cursive;
+    text-shadow: 0 0 13px #ff0000;
+    padding: 21px 37px 20px 40px;
+  }
+  &:hover {
+    .dropbtn {
+      text-shadow: 0 0 13px #613630 !important;
+    }
+  }
+}
+.backtotop-link {
+  padding: 10px 12px;
+  border: 1px solid #61363055;
+  border-radius: 3px;
+  a {
+    color: #ff0000;
+  }
+}
+.panel {
+  background-color: #ffffff99;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 25px #ffffff99;
+  .panel-content {
+    padding: 1px 25px 12px 25px;
+  }
+}
+.footer-panel {
+  color: #ff0000;
+  padding: 5px;
+  border-top: 1px solid #61363055;
+  a {
+    &:hover {
+      text-shadow: 0 0 7px #613630 !important;
+    }
+  }
+  .theme-select {
+    border: 1px solid #ff000055 !important;
+    border-radius: 3px !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #946d6d65;
+}
+::-webkit-scrollbar-thumb {
+  background: #88202065;
+  &:hover {
+    background: #ff000065;
+  }
+}
+.list {
+  h2 {
+    margin-bottom: 0px !important;
+  }
+  ul {
+    background-color: #ffffff99;
+    font-family: "Knewave", cursive;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 20px #ffffff99;
+    table {
+      tr {
+        td {
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    }
+    .bean-colors {
+      padding: 10px 5px 0 5px;
+      font-family: "Raleway", sans-serif;
+      text-shadow: 0 0 10px black;
+    }
+  }
+  .filtering {
+    button {
+      border: 1px solid #ff0000;
+      font-family: "Raleway", sans-serif;
+      background-color: transparent;
+      color: #ff0000;
+      &:first-child {
+        border-radius: 3px 0 0 3px;
+      }
+      &:last-child {
+        border-radius: 0 3px 3px 0;
+      }
+      &:hover {
+        background-color: #ff000050;
+      }
+    }
+    .active {
+      background-color: #ff000050;
+    }
+  }
+}
+.list-navigation {
+  color: #613630 !important;
+}
+.disclaimer {
+  color: #ff000090;
+}

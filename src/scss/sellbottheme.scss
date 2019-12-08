@@ -1,0 +1,142 @@
+/** list css */
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("/images/cogs/sellbots/SellbotHQ2.jpg");
+  h1 {
+    font-family: "Permanent Marker", cursive;
+  }
+}
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+h3 {
+  font-family: "Permanent Marker", cursive;
+}
+summary {
+  font-family: "Permanent Marker", cursive;
+}
+nav {
+  border-bottom: 1px solid #64264755;
+  a {
+    font-family: "Permanent Marker", cursive;
+    padding: 25px 40px;
+    text-shadow: 0 0 13px #561630;
+  }
+  .dropdown-content {
+    margin-top: -15px;
+    padding: 0 5px;
+    background: url("/images/cogs/sellbots/grid.png");
+    background-size: 130px 145px !important;
+    background-repeat: repeat;
+    border: 15px solid transparent;
+    border-image: url("/images/cogs/metal_border.png") 30;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    a {
+      padding: 20px;
+      font-family: "Permanent Marker", cursive;
+    }
+  }
+}
+.shrink {
+  a {
+    padding: 6px 30px;
+  }
+  .dropdown {
+    .dropbtn {
+      padding: 6px 27px 6px 30px;
+    }
+  }
+  .dropdown-content {
+    margin-top: -3px;
+    a {
+      padding: 12px;
+      font-size: 17px;
+    }
+  }
+}
+.dropdown {
+  .dropbtn {
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 0 0 13px #561630;
+    padding: 25px 37px 25px 40px;
+  }
+}
+.backtotop-link {
+  padding: 10px 12px;
+  border: 1px solid #64264755;
+  border-radius: 3px;
+  a {
+    color: #642647;
+  }
+}
+.panel {
+  background-color: white;
+  border: 15px solid transparent;
+  border-image: url("/images/cogs/metal_border.png") 30;
+  box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+  .panel-content {
+    padding: 5px 30px 17px 30px;
+  }
+}
+.footer-panel {
+  color: #642647;
+  padding: 5px;
+  border-top: 1px solid #64264755;
+  .theme-select {
+    border: 1px solid #64264755 !important;
+    border-radius: 3px !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #ca9cb565;
+}
+::-webkit-scrollbar-thumb {
+  background: #64264765;
+  &:hover {
+    background: #57073165;
+  }
+}
+.list {
+  ul {
+    background-color: rgba(255, 255, 255);
+    font-family: "Permanent Marker", cursive;
+    border: 15px solid transparent;
+    border-image: url("/images/cogs/metal_border.png") 30;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    table {
+      tr {
+        td {
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+    .bean-colors {
+      padding: 10px 5px 0 5px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .filtering {
+    button {
+      border: 1px solid #642647;
+      font-family: "Roboto", sans-serif;
+      background-color: transparent;
+      color: #642647;
+      &:first-child {
+        border-radius: 3px 0 0 3px;
+      }
+      &:last-child {
+        border-radius: 0 3px 3px 0;
+      }
+      &:hover {
+        background-color: #64264750;
+      }
+    }
+    .active {
+      background-color: #64264750;
+    }
+  }
+}
+.disclaimer {
+  color: #64264790;
+}

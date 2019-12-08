@@ -1,0 +1,158 @@
+/** list css */
+body {
+  font-family: "Oswald", sans-serif;
+  background: url("/images/cogs/cashbots/Cashbot_HQ.jpg");
+  h1 {
+    font-family: "Black Ops One", cursive;
+  }
+}
+h2 {
+  font-family: "Black Ops One", cursive;
+}
+h3 {
+  font-family: "Black Ops One", cursive;
+}
+summary {
+  font-family: "Black Ops One", cursive;
+}
+nav {
+  border-bottom: 1px solid #446e4155;
+  a {
+    font-family: "Black Ops One", cursive;
+    padding: 25px 40px;
+    text-shadow: 0 0 13px #446e41;
+    &:hover {
+      text-shadow: 0 0 13px red;
+    }
+  }
+  .dropdown-content {
+    margin-top: -15px;
+    padding: 0 5px;
+    background: url("/images/cogs/cashbots/light_money_symbol.png");
+    background-color: rgb(240, 240, 240);
+    background-size: 22px 22px !important;
+    background-repeat: repeat;
+    border: 15px solid transparent;
+    border-image: url("/images/cogs/metal_border.png") 30;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    a {
+      padding: 20px;
+      font-family: "Black Ops One", cursive;
+    }
+  }
+  .dropdown {
+    &:hover {
+      .dropdown-content {
+        display: block;
+      }
+    }
+  }
+}
+.shrink {
+  a {
+    padding: 8px 30px;
+  }
+  .dropdown {
+    .dropbtn {
+      padding: 8px 27px 6px 30px;
+    }
+  }
+  .dropdown-content {
+    margin-top: -3px;
+    a {
+      padding: 12px;
+      font-size: 17px;
+    }
+  }
+}
+.dropdown {
+  .dropbtn {
+    font-family: "Black Ops One", cursive;
+    text-shadow: 0 0 13px #446e41;
+    padding: 25px 37px 25px 40px;
+  }
+  &:hover {
+    .dropbtn {
+      text-shadow: 0 0 13px red;
+    }
+  }
+}
+.backtotop-link {
+  padding: 7px 10px 10px 10px;
+  border: 1px solid #446e4155;
+  border-radius: 3px;
+  a {
+    color: #446e41;
+  }
+}
+.panel {
+  background-color: white;
+  border: 15px solid transparent;
+  border-image: url("/images/cogs/metal_border.png") 30;
+  box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+  .panel-content {
+    padding: 5px 30px 17px 30px;
+  }
+}
+.footer-panel {
+  color: #446e41;
+  padding: 2px 5px;
+  border-top: 1px solid #446e4155;
+  .theme-select {
+    border: 1px solid #446e4155 !important;
+    border-radius: 3px !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #92b39065;
+}
+::-webkit-scrollbar-thumb {
+  background: #446e4165;
+  &:hover {
+    background: #1d521965;
+  }
+}
+.list {
+  ul {
+    background-color: rgba(255, 255, 255);
+    font-family: "Black Ops One", cursive;
+    border: 15px solid transparent;
+    border-image: url("/images/cogs/metal_border.png") 30;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    table {
+      tr {
+        td {
+          font-family: "Oswald", sans-serif;
+        }
+      }
+    }
+    .bean-colors {
+      padding: 10px 5px 0 5px;
+      font-family: "Oswald", sans-serif;
+    }
+  }
+  .filtering {
+    button {
+      border: 1px solid #446e41;
+      font-family: "Oswald", sans-serif;
+      background-color: transparent;
+      color: #446e41;
+      &:first-child {
+        border-radius: 3px 0 0 3px;
+      }
+      &:last-child {
+        border-radius: 0 3px 3px 0;
+      }
+      &:hover {
+        background-color: #446e4150;
+      }
+    }
+    .active {
+      background-color: #446e4150;
+    }
+  }
+}
+.disclaimer {
+  color: #446e4190;
+}

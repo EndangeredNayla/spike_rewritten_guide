@@ -1,0 +1,138 @@
+/** list css */
+body {
+  font-family: "Lato", sans-serif;
+  background: url("/images/cogs/lawbots/LBHQ2.jpg");
+  h1 {
+    font-family: "Bree Serif", serif;
+  }
+}
+h2 {
+  font-family: "Bree Serif", serif;
+}
+h3 {
+  font-family: "Bree Serif", serif;
+}
+summary {
+  font-family: "Bree Serif", serif;
+}
+nav {
+  border-bottom: 1px solid #31376355;
+  a {
+    font-family: "Bree Serif", serif;
+    padding: 25px 40px;
+    text-shadow: 0 0 13px #2d398d;
+  }
+  .dropdown-content {
+    margin-top: -15px;
+    padding: 0 5px;
+    background: url("/images/cogs/lawbots/marble.png");
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    a {
+      padding: 20px;
+      font-family: "Bree Serif", serif;
+    }
+  }
+}
+.shrink {
+  a {
+    padding: 6px 30px;
+  }
+  .dropdown {
+    .dropbtn {
+      padding: 6px 27px 6px 30px;
+    }
+  }
+  .dropdown-content {
+    margin-top: -3px;
+    a {
+      padding: 12px;
+      font-size: 17px;
+    }
+  }
+}
+.dropdown {
+  .dropbtn {
+    font-family: "Bree Serif", serif;
+    text-shadow: 0 0 13px #2d398d;
+    padding: 25px 37px 25px 40px;
+  }
+}
+.backtotop-link {
+  padding: 10px 12px;
+  border: 1px solid #31376395;
+  border-radius: 1px;
+  a {
+    color: #313763;
+  }
+}
+.panel {
+  background-color: white;
+  background-image: url("/images/cogs/lawbots/marble.png");
+  box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+  border-radius: 1px;
+  .panel-content {
+    padding: 5px 30px 17px 30px;
+  }
+}
+.footer-panel {
+  color: #313763;
+  padding: 4px;
+  border-top: 1px solid #2d398d75;
+  .theme-select {
+    border: 1px solid #31376355 !important;
+    border-radius: 1px !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #8084a565;
+}
+::-webkit-scrollbar-thumb {
+  background: #31376365;
+  &:hover {
+    background: #111b6365;
+  }
+}
+.list {
+  ul {
+    background-color: white;
+    background-image: url("/images/cogs/lawbots/marble.png");
+    font-family: "Bree Serif", serif;
+    box-shadow: 1px 1px 8px 1px rgb(61, 61, 61);
+    border-radius: 1px;
+    table {
+      tr {
+        td {
+          font-family: "Lato", sans-serif;
+        }
+      }
+    }
+    .bean-colors {
+      padding: 10px 5px 0 5px;
+      font-family: "Lato", sans-serif;
+    }
+  }
+  .filtering {
+    button {
+      border: 1px solid #313763;
+      font-family: "Lato", sans-serif;
+      background-color: transparent;
+      color: #313763;
+      &:first-child {
+        border-radius: 1px 0 0 1px;
+      }
+      &:last-child {
+        border-radius: 0 1px 1px 0;
+      }
+      &:hover {
+        background-color: #31376350;
+      }
+    }
+    .active {
+      background-color: #31376350;
+    }
+  }
+}
+.disclaimer {
+  color: #31376390;
+}

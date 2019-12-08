@@ -1,0 +1,140 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.shrink {
+  .bm-burger-button {
+    width: 28px;
+    height: 22px;
+    right: 20px;
+    top: 16px;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: red;
+  border-radius: 2px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  text-shadow: 0 0 7px red !important;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  
+  >button {
+    &:focus {
+      outline: 0;
+    }
+
+    transition: text-shadow 0.15s linear;
+    &:hover {
+      text-shadow: 0 0 13px red;
+    }
+  }
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+  box-shadow: 0 0 13px #285b9f;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  margin-top: -5px;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background-image: linear-gradient(aliceblue, aliceblue, rgba(255, 255, 255, 0.45)); /* Standard syntax (must be last) */
+  padding: 3em 3em 0;
+  font-size: 1.15em;
+  box-shadow: 1px 1px 8px 1px silver;
+  border-left: 1px solid #6294d655;
+  overflow: hidden !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  height: unset !important;
+  display: contents;
+
+  >a:focus {
+    outline: 0;
+  }
+
+  .summary {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    text-shadow: 0 0 13px #285b9f;
+    transition: text-shadow 0.15s linear;
+    &:hover {
+      text-shadow: 0 0 13px red;
+    }
+    &::-webkit-details-marker {
+      display:none;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .bm-item {
+    padding: unset;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+
+    &:focus {
+      outline: 0;
+    }
+
+    >details >a {
+      padding: 9px 30px;
+      font-size: 20px;
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  opacity: 0 !important;
+  display: none;
+}
