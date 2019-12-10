@@ -2,7 +2,7 @@
   "name": "rewritten_guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "spikesrewrittenguide.com",
+  "homepage": "https://spikesrewrittenguide.com",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
