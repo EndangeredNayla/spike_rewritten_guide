@@ -329,6 +329,11 @@ details[open] {
   font-size: 12px;
   width: 100%;
 }
+summary {
+  &:focus {
+    outline: 0;
+  }
+}
 @media screen and (max-width: 1025px) {
 	.panel {
 		width: 95%;

@@ -1,6 +1,6 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   right: 36px;
@@ -32,7 +32,8 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  text-shadow: 0 0 7px red !important;
+  box-shadow: 0 0 7px red !important;
+  opacity: 1 !important;
 }
 
 /* Position and sizing of clickable cross button */
@@ -107,9 +108,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     }
     &::-webkit-details-marker {
       display:none;
-    }
-    &:focus {
-      outline: 0;
     }
   }
 
