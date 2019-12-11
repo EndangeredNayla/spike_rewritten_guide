@@ -6,13 +6,13 @@ Spike's Rewritten Guide is a one stop site with all the in's and out's of Toonto
 
 View Web Application: [spikesrewrittenguide.com](https://spikesrewrittenguide.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Technology Stack
-* ReactJS
-* NodeJS
-* Sass
-* HTML
+* ReactJS 16.11.0
+* Node 6.1.0
+* Sass (node-sass)
+* HTML5
 
 ## Author & Developer
-* Courtney Ripoll ([Profile](https://github.com/ctripoll))
+* **Courtney Ripoll** - _User interface design, code implementation, deployment_ - ([GitHub Profile](https://github.com/ctripoll))
