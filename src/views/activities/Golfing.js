@@ -43,7 +43,7 @@ class Golfing extends React.Component {
                             Donald's Dock (circled, displayed right). Once
                             visited, you will have teleport access.
                         </p>
-                        <div className="row">
+                        <div className="row row-images">
                             <div className="column">
                                 <img
                                     className="content-img"
@@ -131,7 +131,7 @@ class Golfing extends React.Component {
                             . If clicked, the current scores for all holes
                             played for all golfers will be displayed.
                         </p>
-                        <div className="row">
+                        <div className="row row-images">
                             <div className="column">
                                 <img
                                     className="content-img"

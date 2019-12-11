@@ -222,7 +222,7 @@ class Cashbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 320 + "px" }}
-              src="/images/cogs/cashbots/cbhq.png"
+              src="/images/cogs/cashbots/cbhq.PNG"
               alt="Cashbot HQ Courtyard"
             />
             <p>
@@ -441,7 +441,7 @@ class Cashbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 220 + "px" }}
-              src="/images/cogs/cashbots/cbhq_vault.png"
+              src="/images/cogs/cashbots/cbhq_vault.PNG"
               alt="Cashbot HQ Vault"
             />
             <p>

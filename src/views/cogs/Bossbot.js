@@ -224,7 +224,7 @@ class Bossbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 310 + "px" }}
-              src="/images/cogs/bossbots/bbhq.png"
+              src="/images/cogs/bossbots/bbhq.PNG"
               alt="Bossbot HQ Courtyard"
             />
             <h3 id="coggolf">Cog Golf Courses</h3>
@@ -372,7 +372,7 @@ class Bossbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 250 + "px" }}
-              src="/images/cogs/bossbots/clubhouse.png"
+              src="/images/cogs/bossbots/clubhouse.PNG"
               alt="Bossbot HQ Clubhouse entrance"
             />
             <p>
@@ -528,7 +528,7 @@ class Bossbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 160 + "px" }}
-              src="/images/pinkslip_use.png"
+              src="/images/pinkslip_use.PNG"
               alt="Pink slip cog chooser"
             />
             <br />

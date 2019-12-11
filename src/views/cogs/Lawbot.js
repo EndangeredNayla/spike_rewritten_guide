@@ -226,7 +226,7 @@ class Lawbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 320 + "px" }}
-              src="/images/cogs/lawbots/lbhq.png"
+              src="/images/cogs/lawbots/lbhq.PNG"
               alt="Lawbot HQ Courtyard"
             />
             <h3 id="da">District Attorney Offices</h3>
@@ -239,7 +239,7 @@ class Lawbot extends React.Component {
               className="content-img"
               style={{ height: 300 + "px" }}
               src="/images/cogs/lawbots/lbhq_daoffice.PNG"
-              alt="LAwbot HQ DA Office entrance"
+              alt="Lawbot HQ DA Office entrance"
             />
             <p>
               There are four different tiers of offices a toon can enter: Office
@@ -457,7 +457,7 @@ class Lawbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 250 + "px" }}
-              src="/images/cogs/lawbots/lbhq_courthousedoors.png"
+              src="/images/cogs/lawbots/lbhq_courthousedoors.PNG"
               alt="Lawbot HQ Courthouse entrance"
             />
             <p>

@@ -226,7 +226,7 @@ class Sellbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 320 + "px" }}
-              src="/images/cogs/sellbots/sbhq.png"
+              src="/images/cogs/sellbots/sbhq.PNG"
               alt="Sellbot HQ Courtyard"
             />
             <p>
@@ -382,7 +382,7 @@ class Sellbot extends React.Component {
             <img
               className="content-img"
               style={{ height: 150 + "px" }}
-              src="/images/sos_card_options.png"
+              src="/images/sos_card_options.PNG"
               alt="SOS Card example"
             />
             <p>

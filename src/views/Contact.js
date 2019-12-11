@@ -82,10 +82,6 @@ class Contact extends React.Component {
                                 <div className="contact-input">
                                     <label htmlFor="Toon">
                                         Toon Species
-                                        <span style={{ color: "red" }}>
-                                            {" "}
-                                            *{" "}
-                                        </span>
                                     </label>
                                     <select
                                         className="toon-input"

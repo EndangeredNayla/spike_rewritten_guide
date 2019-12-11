@@ -248,6 +248,10 @@ nav {
   .panel-nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    >a {
+      padding: 0 3px;
+    }
   }
   .book-tab {
     margin-bottom: -6px;
@@ -260,6 +264,10 @@ nav {
     width: auto;
     max-width: 100%;
     border-radius: 1em;
+    padding: 0 5px;
+  }
+  .row-images {
+    padding: unset !important;
   }
 }
 .footer-panel {
@@ -325,6 +333,21 @@ details[open] {
 	.panel {
 		width: 95%;
 	}
+}
+@media screen and (max-width: 520px) {
+  .content-img {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 825px) {
+  .row-images {
+    .content-img {
+      height: auto !important;
+    }
+    .column {
+      margin: auto 0;
+    }
+  }
 }
 @media screen and (max-width: 750px) {
 	.footer-panel {
