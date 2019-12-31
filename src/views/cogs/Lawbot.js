@@ -273,28 +273,28 @@ class Lawbot extends React.Component {
                   <td>0</td>
                   <td>3</td>
                   <td>24</td>
-                  <td>489</td>
+                  <td>564</td>
                 </tr>
                 <tr>
                   <td>B</td>
                   <td>81</td>
                   <td>4</td>
                   <td>32</td>
-                  <td>794</td>
+                  <td>944</td>
                 </tr>
                 <tr>
                   <td>C</td>
                   <td>86</td>
                   <td>5</td>
                   <td>40</td>
-                  <td>1145</td>
+                  <td>1370</td>
                 </tr>
                 <tr>
                   <td>D</td>
                   <td>96</td>
                   <td>6</td>
                   <td>48</td>
-                  <td>1542</td>
+                  <td>1842</td>
                 </tr>
               </tbody>
             </table>

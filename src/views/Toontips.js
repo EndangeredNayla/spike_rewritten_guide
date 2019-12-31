@@ -32,7 +32,7 @@ class Toontips extends React.Component {
                                 <a href="#2">Where to Find Toons</a>
                             </li>
                             <li>
-                                <a href="#3">Playground & Street Secrets</a>
+                                <a href="#3">Playground &amp; Street Secrets</a>
                             </li>
                             <li>
                                 <a href="#4">Gag Experience Multipliers</a>
@@ -70,7 +70,7 @@ class Toontips extends React.Component {
                     <div className="panel-content">
                         <details>
                             <summary id="1">What to do in a Cog Battle</summary>
-                            <h2>Cog Crossing</h2>
+                            <h2>Gag Crossing</h2>
                             <p>
                                 Try not to cross over toons when choosing cogs
                                 to hit. Meaning, if you are positioned on the
@@ -136,7 +136,7 @@ class Toontips extends React.Component {
                     <div className="panel-content">
                         <details>
                             <summary id="3">
-                                Playground & Street Secrets
+                                Playground &amp; Street Secrets
                             </summary>
                             <h2>Street Shortcuts</h2>
                             <p>
@@ -178,6 +178,44 @@ class Toontips extends React.Component {
                                     />
                                 </div>
                             </div>
+                            <h2>Polar Toon</h2>
+                            <p>
+                                Have you ever wanted your toon to be giant &amp;
+                                colorless (white). The Polar Toon affect
+                                temporarily makes your toon giant and white. To
+                                experience this, a toon can visit Paula Behr at
+                                Hibernation Vacations on Polar Place in The
+                                Brrrgh. There, a toon must say "Howdy!" to Paula
+                                using SpeedChat. This affect only works in the
+                                Brrrgh and is NOT permanent.
+                            </p>
+                            <img
+                                className="content-img"
+                                style={{ height: 225 + "px" }}
+                                src="/images/hibernation_vacations.PNG"
+                                alt="Hibernation Vacations"
+                            />
+                            <h2>Resistance Salute</h2>
+                            <p>
+                                Ever see other toons around Toontown yelling
+                                "Toons of the world unite!" and jumping up with
+                                a fist in the air? That animation is called the
+                                Resistance Salute. This is not an animation a
+                                toon can purchase like Bow or Dance. Toon musts
+                                visit Whispering Willow at Talking in Your Sleep
+                                Voice Training on Pajama Place in Donald's
+                                Dreamland. There, a toon must ask Willow "Would
+                                you like some help?" using SpeedChat. Once
+                                completed, the Resistance Salute animation can
+                                be found under the Emotions tab in the Speedchat
+                                menu.
+                            </p>
+                            <img
+                                className="content-img"
+                                style={{ height: 225 + "px" }}
+                                src="/images/resistance_salute.png"
+                                alt="Resistance Salute animation"
+                            />
                             <h2>Goofy Speedway Teleport Trick</h2>
                             <p>
                                 New toon? Go to Goofy's Speedway (accessible in
@@ -198,20 +236,20 @@ class Toontips extends React.Component {
                             <p>
                                 For those who are used to Toontown Online or are
                                 just unaware, Cog HQs give double XP! That means
-                                twice the gag XP and twice the promotion XP in half
-                                the time! Cog HQ bonuses are not affected by district 
-                                cog invasions.
+                                twice the gag XP and twice the promotion XP in
+                                half the time! Cog HQ bonuses are not affected
+                                by district cog invasions.
                             </p>
                             <h2>Building Multipliers</h2>
                             <p>
                                 To effectively and efficiently train gags,
-                                defeating cog buildings during invasions
-                                is the way to go. Not only do toons get +.5
-                                added to the experience multipler each floor
-                                they go up (i.e. 1x, 1.5x, 2x...), during
-                                invasions, the multipler is also doubled (i.e.
-                                2x, 3x, 4x...)! It is really easy to earn max
-                                gag experience points for a gag track (300pts)!
+                                defeating cog buildings during invasions is the
+                                way to go. Not only do toons get +.5 added to
+                                the experience multipler each floor they go up
+                                (i.e. 1x, 1.5x, 2x...), during invasions, the
+                                multipler is also doubled (i.e. 2x, 3x, 4x...)!
+                                It is really easy to earn max gag experience
+                                points for a gag track (300pts)!
                             </p>
                         </details>
                     </div>
@@ -234,6 +272,12 @@ class Toontips extends React.Component {
                                 experience quicker while also working on
                                 toontasks.
                             </p>
+                            <img
+                                className="content-img"
+                                style={{ height: 200 + "px" }}
+                                src="/images/vague_tt.PNG"
+                                alt="Vague Toontasks example"
+                            />
                             <h2>Similar Toontasks</h2>
                             <p>
                                 If you're a player that likes to multitask, try
@@ -265,7 +309,8 @@ class Toontips extends React.Component {
                             <h4>The Lava Room</h4>
                             <p>
                                 Most toons stop here when following the long
-                                route in a factory, usually to replenish sound gags.
+                                route in a factory, usually to replenish sound
+                                gags.
                             </p>
                             <ul>
                                 <li>Squirt restock barrel (fire hose)</li>
@@ -323,10 +368,10 @@ class Toontips extends React.Component {
                             <p>
                                 Usually, with a soundless toon present, the
                                 first round will be lured. During the second
-                                round, all toons with sound
-                                will use fog while the soundless toons takes out
-                                the level 12 Skelecog. This occurs until toons
-                                run out of fog horns.
+                                round, all toons with sound will use fog while
+                                the soundless toons takes out the level 12
+                                Skelecog. This occurs until toons run out of fog
+                                horns.
                             </p>
                             <h2>Filling the Jury Seats with Toons</h2>
                             <p>
@@ -374,10 +419,10 @@ class Toontips extends React.Component {
                             </p>
                             <h2>When the C.E.O. says "Fore!"</h2>
                             <p>
-                                When the C.E.O. yells "Fore!" jump off the
-                                table after he swings and back up. He already
-                                targeted each toons location, so if a toon
-                                moves, the golf balls will miss them.
+                                When the C.E.O. yells "Fore!" jump off the table
+                                after he swings and back up. He already targeted
+                                each toons location, so if a toon moves, the
+                                golf balls will miss them.
                             </p>
                         </details>
                     </div>
@@ -462,12 +507,12 @@ class Toontips extends React.Component {
                             <h2>Earning Jellybeans Quickly</h2>
                             <p>
                                 Have you ever found yourself in need of
-                                jellybeans but you do not want to play
-                                trolley games? Well do I have a solution for
-                                you! Go fishing with whatever jellybeans are
-                                left in your toons jar and keep selling fish
-                                until you are content. Added bonus, this also
-                                helps fishing progress.
+                                jellybeans but you do not want to play trolley
+                                games? Well do I have a solution for you! Go
+                                fishing with whatever jellybeans are left in
+                                your toons jar and keep selling fish until you
+                                are content. Added bonus, this also helps
+                                fishing progress.
                             </p>
                         </details>
                     </div>
@@ -482,8 +527,10 @@ class Toontips extends React.Component {
                                 is a pain. A clever way to earn sweeping
                                 trophies is to swap sweeping wins with another
                                 toon. This way there is no stress or pressure to
-                                win 3 races in a row, and you and your toon
-                                friend benefit from the deal!
+                                win 3 races in a row during a Grand Prix, and
+                                you and your toon friend benefit from the deal!
+                                This strategy is also useful for single track
+                                races, to increase your races won count.
                             </p>
                         </details>
                     </div>

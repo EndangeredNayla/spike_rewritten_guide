@@ -278,8 +278,8 @@ class Sellbot extends React.Component {
               most efficient way to collect merits.
             </p>
             <ul>
-              <li>Short Route provides 480 merits</li>
-              <li>Long Route provies 776 merits</li>
+              <li>Short Route provides <strong>480 merits</strong></li>
+              <li>Long Route provies <strong>776 merits</strong></li>
             </ul>
             <p>
               Ranking up a cog suit works similarly to how cog levels work. A
