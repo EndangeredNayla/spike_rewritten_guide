@@ -12,27 +12,30 @@ class Navigation extends React.Component {
                         <HomeButton />
                         <div className="dropdown">
                             <button className="dropbtn">
-                                Activities&nbsp;&#9662;
+                                Activities&nbsp;
+                                <i className="fa fa-caret-down"></i>
                             </button>
                             <div className="dropdown-content">
-                                <Link to="/gardening">Gardening&nbsp;</Link>
-                                <Link to="/fishing">Fishing&nbsp;</Link>
-                                <Link to="/racing">Racing&nbsp;</Link>
-                                <Link to="/golfing">Golfing&nbsp;</Link>
-                                <Link to="/doodles">Doodles&nbsp;</Link>
+                                <Link to="/gardening">Gardening</Link>
+                                <Link to="/fishing">Fishing</Link>
+                                <Link to="/racing">Racing</Link>
+                                <Link to="/golfing">Golfing</Link>
+                                <Link to="/doodles">Doodles</Link>
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn">Cogs&nbsp;&#9662;</button>
+                            <button className="dropbtn">
+                                Cogs&nbsp;<i className="fa fa-caret-down"></i>
+                            </button>
                             <div className="dropdown-content">
-                                <Link to="/sellbots">Sellbots&nbsp;</Link>
-                                <Link to="/cashbots">Cashbots&nbsp;</Link>
-                                <Link to="/lawbots">Lawbots&nbsp;</Link>
-                                <Link to="/bossbots">Bossbots&nbsp;</Link>
+                                <Link to="/sellbots">Sellbots</Link>
+                                <Link to="/cashbots">Cashbots</Link>
+                                <Link to="/lawbots">Lawbots</Link>
+                                <Link to="/bossbots">Bossbots</Link>
                             </div>
                         </div>
-                        <Link to="/toontips">Toon Tips&nbsp;</Link>
-                        <Link to="/about">About&nbsp;</Link>
+                        <Link to="/toontips">Toon Tips</Link>
+                        <Link to="/about">About</Link>
                     </div>
                     <div className="mobile-nav">
                         <HomeButton />

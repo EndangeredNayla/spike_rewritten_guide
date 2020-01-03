@@ -9,7 +9,7 @@ class HomeButton extends React.Component {
                     src="/images/spikes_unwritten_guide.png"
                     alt="Spike's Rewritten Guide"
                 />
-                Home&nbsp;
+                Home
             </Link>
         );
     }
