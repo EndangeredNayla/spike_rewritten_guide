@@ -74,15 +74,21 @@ class Toontips extends React.Component {
                             <p>
                                 Try not to cross over toons when choosing cogs
                                 to hit. Meaning, if you are positioned on the
-                                left of the battle, hit the cogs on the left
-                                side. Of course, sometimes this is not always
-                                possible. Crossing can often cause confusion
-                                between toons which can then lead to one cog
-                                being over hit or not being hit at all. This is
-                                especially helpful with game lag and countdown
-                                clock pressure. This tip is very important in
-                                Cog Golf courses as well.
+                                left side of the battle, hit the cogs on the
+                                left side. Why? Crossing can often cause
+                                confusion between toons which can then lead to
+                                one cog being over hit or not being hit at all.
+                                This is especially helpful with game lag and
+                                countdown clock pressure. Of course, sometimes
+                                this method is not always possible, but do your
+                                best to choose cogs wisely!
                             </p>
+                            <img
+                                className="content-img"
+                                style={{ height: 300 + "px" }}
+                                src="/images/gag_cross_example.png"
+                                alt="Gag crossing example"
+                            />
                             <h2>Sound vs. Lure</h2>
                             <p>
                                 I am sure every toon has seen the SpeedChat
@@ -341,8 +347,16 @@ class Toontips extends React.Component {
                                 obtain a helmet that will need to be knocked off
                                 in order to deal more damage. To know if the
                                 C.F.O. is stunned, the sound of an aoogah will
-                                go off and C.F.O. will appear dizzy.
+                                go off and C.F.O. will appear dizzy. In the
+                                screenshot below, the C.F.O. is wearing a safe
+                                helmet.
                             </p>
+                            <img
+                                className="content-img"
+                                style={{ height: 250 + "px" }}
+                                src="/images/cfo_safehelmet.PNG"
+                                alt="CFO with Safe Helmet on"
+                            />
                         </details>
                     </div>
                 </div>
@@ -403,6 +417,19 @@ class Toontips extends React.Component {
                                 toons should go right. There are also colored
                                 flags that hint how far a toon is from the end
                                 of the maze.
+                            </p>
+                            <h2>The Mole Stomp</h2>
+                            <p>
+                                In a Cog Golf Course, one of the first obstacles
+                                or puzzles encountered is the mole stomp. There
+                                is a 6x6 grid of holes in the ground where moles
+                                will pop up. An effective way to conquer this is
+                                to divide the grid by four, so each toon in the
+                                Golf Course gets their own 3x3 corner of the
+                                grid. A toon is responsible for their own corner
+                                and does not have to worry about the rest of the
+                                grid. This makes for a quicker run and provides
+                                a higher success rate.
                             </p>
                             <h2>The One Fog Rule (C.E.O.)</h2>
                             <p>
